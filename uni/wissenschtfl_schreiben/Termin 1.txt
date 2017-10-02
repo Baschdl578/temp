@@ -1,0 +1,32 @@
+Wissenschaftliches Schreiben
+
+Aufgabe 1:
+Mein Name ist Sebastian Schindler, ich bin 24 Jahre alt, komme aus Walldorf und studiere im siebten Fachsemester Informatik.
+Mein im Vergleich etwas höheres Alter erklärt sich dadurch, dass ich vorher 3 Semster mit dem Studium der Physik zugebracht habe.
+Das Seminar besuche ich, da ich diesen Sommer mein Bachelorstudium beenden möchte und hierzu noch meine Bachelorarbeit verfassen muss.
+Da ich zuvor noch keine eigenen wissenschaftlichen Texte verfasst habe, erhoffe ich mir hier die nötigen Fähigkeiten dazu anzueignen, sodass mir die Abschlussarbeit gelingt.
+Probleme habe ich insbesondere damit, genug Stoff zum schreiben zu finden, da mir besonders bei Aufgaben wie dieser die nötige Kreativität fehlt.
+Außerdem muss ich, wie jeder andere Informatikstudent auch, 4 ECTS Punkte im Bereich Schlüsselqualifikationen erbringen, diese wollte ich sinnvoll nutzen und mein Repertoire erweitern.
+
+Formalitäten:
+Für 2 ECTS: 1 bis 2 Seiten Einleitung abgeben bis 20.06. mit Thema der Wahl (z.B. eigene Bachelorarbeit/Proseminar).
+Ilias: Passwort Info_11
+silke.bergerhoff@kit.edu
+
+Ablauf:
+16.05. Vorarbeiten, Zeitplanung
+30.05. Einarbeitung Recherche, Recherche
+20.06. Arufbau der Arbeit, wissenschaftl. Schreiben
+04.07. Korrektur, Stil
+
+Aufgabe 2:
+Überschriften sind klar
+Einleitungen:
+  Aktueller Stand (evtl. mit Hinführung, Historie)
+  Kritik des aktuellen Standes
+  Verbesserungsansatz
+Einleitung von Jochen Seidel zu dicht, bei Christian Vetter zu kurze Sätze
+Jochen Seidel: Kein Quellenverzeichnis, Referenzen direkt im Text
+
+Wichtiges:
+Abstract ist KEIN Teil der Arbeit (nicht im Inhalt)

@@ -1,0 +1,2707 @@
+Determining if the function floor exists failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b8c7d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b8c7d.dir/build.make CMakeFiles/cmTC_b8c7d.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_b8c7d.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_GNU_SOURCE=1  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -DCHECK_FUNCTION_EXISTS=floor   -o CMakeFiles/cmTC_b8c7d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.8/Modules/CheckFunctionExists.c
+<Kommandozeile>:0:23: Warnung: In Konflikt stehende Typen für eingebaute Funktion »floor« [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.8/Modules/CheckFunctionExists.c:7:3: Anmerkung: bei Substitution des Makros »CHECK_FUNCTION_EXISTS«
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_b8c7d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8c7d.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -DCHECK_FUNCTION_EXISTS=floor    -rdynamic CMakeFiles/cmTC_b8c7d.dir/CheckFunctionExists.c.o  -o cmTC_b8c7d 
+CMakeFiles/cmTC_b8c7d.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `floor'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make[1]: *** [CMakeFiles/cmTC_b8c7d.dir/build.make:98: cmTC_b8c7d] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_b8c7d/fast] Fehler 2
+
+
+Determining if the function crypt exists failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b2c96/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b2c96.dir/build.make CMakeFiles/cmTC_b2c96.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_b2c96.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_GNU_SOURCE=1  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -DCHECK_FUNCTION_EXISTS=crypt   -o CMakeFiles/cmTC_b2c96.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b2c96
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2c96.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -DCHECK_FUNCTION_EXISTS=crypt    -rdynamic CMakeFiles/cmTC_b2c96.dir/CheckFunctionExists.c.o  -o cmTC_b2c96 
+CMakeFiles/cmTC_b2c96.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `crypt'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make[1]: *** [CMakeFiles/cmTC_b2c96.dir/build.make:98: cmTC_b2c96] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_b2c96/fast] Fehler 2
+
+
+Determining if the function dlopen exists failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f8ac8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f8ac8.dir/build.make CMakeFiles/cmTC_f8ac8.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_f8ac8.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_GNU_SOURCE=1  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -DCHECK_FUNCTION_EXISTS=dlopen   -o CMakeFiles/cmTC_f8ac8.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f8ac8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8ac8.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -DCHECK_FUNCTION_EXISTS=dlopen    -rdynamic CMakeFiles/cmTC_f8ac8.dir/CheckFunctionExists.c.o  -o cmTC_f8ac8 
+CMakeFiles/cmTC_f8ac8.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `dlopen'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make[1]: *** [CMakeFiles/cmTC_f8ac8.dir/build.make:98: cmTC_f8ac8] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_f8ac8/fast] Fehler 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c3a20/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c3a20.dir/build.make CMakeFiles/cmTC_c3a20.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_c3a20.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE=1  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES    -o CMakeFiles/cmTC_c3a20.dir/CheckSymbolExists.c.o   -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c3a20
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3a20.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES     -rdynamic CMakeFiles/cmTC_c3a20.dir/CheckSymbolExists.c.o  -o cmTC_c3a20 
+CMakeFiles/cmTC_c3a20.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make[1]: *** [CMakeFiles/cmTC_c3a20.dir/build.make:98: cmTC_c3a20] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_c3a20/fast] Fehler 2
+
+File /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c1e0a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c1e0a.dir/build.make CMakeFiles/cmTC_c1e0a.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_c1e0a.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_GNU_SOURCE=1  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_c1e0a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c1e0a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1e0a.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_c1e0a.dir/CheckFunctionExists.c.o  -o cmTC_c1e0a -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make[1]: *** [CMakeFiles/cmTC_c1e0a.dir/build.make:98: cmTC_c1e0a] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_c1e0a/fast] Fehler 2
+
+
+Determining if files ieeefp.h exist failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_828aa/fast"
+/usr/bin/make -f CMakeFiles/cmTC_828aa.dir/build.make CMakeFiles/cmTC_828aa.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_828aa.dir/CheckIncludeFiles.c.o
+/usr/bin/cc -D_GNU_SOURCE=1  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES    -o CMakeFiles/cmTC_828aa.dir/CheckIncludeFiles.c.o   -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: schwerwiegender Fehler: ieeefp.h: Datei oder Verzeichnis nicht gefunden
+ #include <ieeefp.h>
+          ^~~~~~~~~~
+Kompilierung beendet.
+make[1]: *** [CMakeFiles/cmTC_828aa.dir/build.make:66: CMakeFiles/cmTC_828aa.dir/CheckIncludeFiles.c.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_828aa/fast] Fehler 2
+
+Source:
+/* */
+#include <ieeefp.h>
+
+
+int main(void){return 0;}
+
+Determining if files ndir.h exist failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_78e5b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_78e5b.dir/build.make CMakeFiles/cmTC_78e5b.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_78e5b.dir/CheckIncludeFiles.c.o
+/usr/bin/cc -D_GNU_SOURCE=1  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES    -o CMakeFiles/cmTC_78e5b.dir/CheckIncludeFiles.c.o   -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: schwerwiegender Fehler: ndir.h: Datei oder Verzeichnis nicht gefunden
+ #include <ndir.h>
+          ^~~~~~~~
+Kompilierung beendet.
+make[1]: *** [CMakeFiles/cmTC_78e5b.dir/build.make:66: CMakeFiles/cmTC_78e5b.dir/CheckIncludeFiles.c.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_78e5b/fast] Fehler 2
+
+Source:
+/* */
+#include <ndir.h>
+
+
+int main(void){return 0;}
+
+Determining if files select.h exist failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dad9e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dad9e.dir/build.make CMakeFiles/cmTC_dad9e.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_dad9e.dir/CheckIncludeFiles.c.o
+/usr/bin/cc -D_GNU_SOURCE=1  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES    -o CMakeFiles/cmTC_dad9e.dir/CheckIncludeFiles.c.o   -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: schwerwiegender Fehler: select.h: Datei oder Verzeichnis nicht gefunden
+ #include <select.h>
+          ^~~~~~~~~~
+Kompilierung beendet.
+make[1]: *** [CMakeFiles/cmTC_dad9e.dir/build.make:66: CMakeFiles/cmTC_dad9e.dir/CheckIncludeFiles.c.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_dad9e/fast] Fehler 2
+
+Source:
+/* */
+#include <select.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/types.h;sys/event.h exist failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_576a0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_576a0.dir/build.make CMakeFiles/cmTC_576a0.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_576a0.dir/CheckIncludeFiles.c.o
+/usr/bin/cc -D_GNU_SOURCE=1  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES    -o CMakeFiles/cmTC_576a0.dir/CheckIncludeFiles.c.o   -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:3:10: schwerwiegender Fehler: sys/event.h: Datei oder Verzeichnis nicht gefunden
+ #include <sys/event.h>
+          ^~~~~~~~~~~~~
+Kompilierung beendet.
+make[1]: *** [CMakeFiles/cmTC_576a0.dir/build.make:66: CMakeFiles/cmTC_576a0.dir/CheckIncludeFiles.c.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_576a0/fast] Fehler 2
+
+Source:
+/* */
+#include <sys/types.h>
+#include <sys/event.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/ndir.h exist failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cb1c5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cb1c5.dir/build.make CMakeFiles/cmTC_cb1c5.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_cb1c5.dir/CheckIncludeFiles.c.o
+/usr/bin/cc -D_GNU_SOURCE=1  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES    -o CMakeFiles/cmTC_cb1c5.dir/CheckIncludeFiles.c.o   -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: schwerwiegender Fehler: sys/ndir.h: Datei oder Verzeichnis nicht gefunden
+ #include <sys/ndir.h>
+          ^~~~~~~~~~~~
+Kompilierung beendet.
+make[1]: *** [CMakeFiles/cmTC_cb1c5.dir/build.make:66: CMakeFiles/cmTC_cb1c5.dir/CheckIncludeFiles.c.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_cb1c5/fast] Fehler 2
+
+Source:
+/* */
+#include <sys/ndir.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/pte.h exist failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f7a96/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f7a96.dir/build.make CMakeFiles/cmTC_f7a96.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_f7a96.dir/CheckIncludeFiles.c.o
+/usr/bin/cc -D_GNU_SOURCE=1  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES    -o CMakeFiles/cmTC_f7a96.dir/CheckIncludeFiles.c.o   -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: schwerwiegender Fehler: sys/pte.h: Datei oder Verzeichnis nicht gefunden
+ #include <sys/pte.h>
+          ^~~~~~~~~~~
+Kompilierung beendet.
+make[1]: *** [CMakeFiles/cmTC_f7a96.dir/build.make:66: CMakeFiles/cmTC_f7a96.dir/CheckIncludeFiles.c.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_f7a96/fast] Fehler 2
+
+Source:
+/* */
+#include <sys/pte.h>
+
+
+int main(void){return 0;}
+
+Determining if files synch.h exist failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c5939/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c5939.dir/build.make CMakeFiles/cmTC_c5939.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_c5939.dir/CheckIncludeFiles.c.o
+/usr/bin/cc -D_GNU_SOURCE=1  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES    -o CMakeFiles/cmTC_c5939.dir/CheckIncludeFiles.c.o   -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: schwerwiegender Fehler: synch.h: Datei oder Verzeichnis nicht gefunden
+ #include <synch.h>
+          ^~~~~~~~~
+Kompilierung beendet.
+make[1]: *** [CMakeFiles/cmTC_c5939.dir/build.make:66: CMakeFiles/cmTC_c5939.dir/CheckIncludeFiles.c.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_c5939/fast] Fehler 2
+
+Source:
+/* */
+#include <synch.h>
+
+
+int main(void){return 0;}
+
+Determining if files sysent.h exist failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d76b8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d76b8.dir/build.make CMakeFiles/cmTC_d76b8.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_d76b8.dir/CheckIncludeFiles.c.o
+/usr/bin/cc -D_GNU_SOURCE=1  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES    -o CMakeFiles/cmTC_d76b8.dir/CheckIncludeFiles.c.o   -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: schwerwiegender Fehler: sysent.h: Datei oder Verzeichnis nicht gefunden
+ #include <sysent.h>
+          ^~~~~~~~~~
+Kompilierung beendet.
+make[1]: *** [CMakeFiles/cmTC_d76b8.dir/build.make:66: CMakeFiles/cmTC_d76b8.dir/CheckIncludeFiles.c.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_d76b8/fast] Fehler 2
+
+Source:
+/* */
+#include <sysent.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/fpu.h exist failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b3a30/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b3a30.dir/build.make CMakeFiles/cmTC_b3a30.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_b3a30.dir/CheckIncludeFiles.c.o
+/usr/bin/cc -D_GNU_SOURCE=1  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES    -o CMakeFiles/cmTC_b3a30.dir/CheckIncludeFiles.c.o   -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: schwerwiegender Fehler: sys/fpu.h: Datei oder Verzeichnis nicht gefunden
+ #include <sys/fpu.h>
+          ^~~~~~~~~~~
+Kompilierung beendet.
+make[1]: *** [CMakeFiles/cmTC_b3a30.dir/build.make:66: CMakeFiles/cmTC_b3a30.dir/CheckIncludeFiles.c.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_b3a30/fast] Fehler 2
+
+Source:
+/* */
+#include <sys/fpu.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/types.h;sys/malloc.h exist failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5822e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5822e.dir/build.make CMakeFiles/cmTC_5822e.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_5822e.dir/CheckIncludeFiles.c.o
+/usr/bin/cc -D_GNU_SOURCE=1  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES    -o CMakeFiles/cmTC_5822e.dir/CheckIncludeFiles.c.o   -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:3:10: schwerwiegender Fehler: sys/malloc.h: Datei oder Verzeichnis nicht gefunden
+ #include <sys/malloc.h>
+          ^~~~~~~~~~~~~~
+Kompilierung beendet.
+make[1]: *** [CMakeFiles/cmTC_5822e.dir/build.make:66: CMakeFiles/cmTC_5822e.dir/CheckIncludeFiles.c.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_5822e/fast] Fehler 2
+
+Source:
+/* */
+#include <sys/types.h>
+#include <sys/malloc.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/stream.h exist failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_34ffd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_34ffd.dir/build.make CMakeFiles/cmTC_34ffd.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_34ffd.dir/CheckIncludeFiles.c.o
+/usr/bin/cc -D_GNU_SOURCE=1  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES    -o CMakeFiles/cmTC_34ffd.dir/CheckIncludeFiles.c.o   -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: schwerwiegender Fehler: sys/stream.h: Datei oder Verzeichnis nicht gefunden
+ #include <sys/stream.h>
+          ^~~~~~~~~~~~~~
+Kompilierung beendet.
+make[1]: *** [CMakeFiles/cmTC_34ffd.dir/build.make:66: CMakeFiles/cmTC_34ffd.dir/CheckIncludeFiles.c.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_34ffd/fast] Fehler 2
+
+Source:
+/* */
+#include <sys/stream.h>
+
+
+int main(void){return 0;}
+
+Determining if files termbits.h exist failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3cc09/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3cc09.dir/build.make CMakeFiles/cmTC_3cc09.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_3cc09.dir/CheckIncludeFiles.c.o
+/usr/bin/cc -D_GNU_SOURCE=1  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES    -o CMakeFiles/cmTC_3cc09.dir/CheckIncludeFiles.c.o   -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: schwerwiegender Fehler: termbits.h: Datei oder Verzeichnis nicht gefunden
+ #include <termbits.h>
+          ^~~~~~~~~~~~
+Kompilierung beendet.
+make[1]: *** [CMakeFiles/cmTC_3cc09.dir/build.make:66: CMakeFiles/cmTC_3cc09.dir/CheckIncludeFiles.c.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_3cc09/fast] Fehler 2
+
+Source:
+/* */
+#include <termbits.h>
+
+
+int main(void){return 0;}
+
+Determining if files varargs.h exist failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ba5c8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ba5c8.dir/build.make CMakeFiles/cmTC_ba5c8.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_ba5c8.dir/CheckIncludeFiles.c.o
+/usr/bin/cc -D_GNU_SOURCE=1  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES    -o CMakeFiles/cmTC_ba5c8.dir/CheckIncludeFiles.c.o   -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+In file included from /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:0:
+/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/include/varargs.h:4:2: Fehler: #error "GCC no longer implements <varargs.h>."
+ #error "GCC no longer implements <varargs.h>."
+  ^~~~~
+/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/include/varargs.h:5:2: Fehler: #error "Revise your code to use <stdarg.h>."
+ #error "Revise your code to use <stdarg.h>."
+  ^~~~~
+make[1]: *** [CMakeFiles/cmTC_ba5c8.dir/build.make:66: CMakeFiles/cmTC_ba5c8.dir/CheckIncludeFiles.c.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_ba5c8/fast] Fehler 2
+
+Source:
+/* */
+#include <varargs.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/utime.h exist failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_590d5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_590d5.dir/build.make CMakeFiles/cmTC_590d5.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_590d5.dir/CheckIncludeFiles.c.o
+/usr/bin/cc -D_GNU_SOURCE=1  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES    -o CMakeFiles/cmTC_590d5.dir/CheckIncludeFiles.c.o   -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: schwerwiegender Fehler: sys/utime.h: Datei oder Verzeichnis nicht gefunden
+ #include <sys/utime.h>
+          ^~~~~~~~~~~~~
+Kompilierung beendet.
+make[1]: *** [CMakeFiles/cmTC_590d5.dir/build.make:66: CMakeFiles/cmTC_590d5.dir/CheckIncludeFiles.c.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_590d5/fast] Fehler 2
+
+Source:
+/* */
+#include <sys/utime.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/vadvise.h exist failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_38b26/fast"
+/usr/bin/make -f CMakeFiles/cmTC_38b26.dir/build.make CMakeFiles/cmTC_38b26.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_38b26.dir/CheckIncludeFiles.c.o
+/usr/bin/cc -D_GNU_SOURCE=1  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES    -o CMakeFiles/cmTC_38b26.dir/CheckIncludeFiles.c.o   -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: schwerwiegender Fehler: sys/vadvise.h: Datei oder Verzeichnis nicht gefunden
+ #include <sys/vadvise.h>
+          ^~~~~~~~~~~~~~~
+Kompilierung beendet.
+make[1]: *** [CMakeFiles/cmTC_38b26.dir/build.make:66: CMakeFiles/cmTC_38b26.dir/CheckIncludeFiles.c.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_38b26/fast] Fehler 2
+
+Source:
+/* */
+#include <sys/vadvise.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/sockio.h exist failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_94bbc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_94bbc.dir/build.make CMakeFiles/cmTC_94bbc.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_94bbc.dir/CheckIncludeFiles.c.o
+/usr/bin/cc -D_GNU_SOURCE=1  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES    -o CMakeFiles/cmTC_94bbc.dir/CheckIncludeFiles.c.o   -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: schwerwiegender Fehler: sys/sockio.h: Datei oder Verzeichnis nicht gefunden
+ #include <sys/sockio.h>
+          ^~~~~~~~~~~~~~
+Kompilierung beendet.
+make[1]: *** [CMakeFiles/cmTC_94bbc.dir/build.make:66: CMakeFiles/cmTC_94bbc.dir/CheckIncludeFiles.c.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_94bbc/fast] Fehler 2
+
+Source:
+/* */
+#include <sys/sockio.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/ptem.h exist failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d9354/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d9354.dir/build.make CMakeFiles/cmTC_d9354.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_d9354.dir/CheckIncludeFiles.c.o
+/usr/bin/cc -DPACKAGE=test -D_GNU_SOURCE=1  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES    -o CMakeFiles/cmTC_d9354.dir/CheckIncludeFiles.c.o   -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: schwerwiegender Fehler: sys/ptem.h: Datei oder Verzeichnis nicht gefunden
+ #include <sys/ptem.h>
+          ^~~~~~~~~~~~
+Kompilierung beendet.
+make[1]: *** [CMakeFiles/cmTC_d9354.dir/build.make:66: CMakeFiles/cmTC_d9354.dir/CheckIncludeFiles.c.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_d9354/fast] Fehler 2
+
+Source:
+/* */
+#include <sys/ptem.h>
+
+
+int main(void){return 0;}
+
+Determining if the function printstack exists failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_15e66/fast"
+/usr/bin/make -f CMakeFiles/cmTC_15e66.dir/build.make CMakeFiles/cmTC_15e66.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_15e66.dir/CheckFunctionExists.c.o
+/usr/bin/cc -DPACKAGE=test -D_GNU_SOURCE=1  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -DCHECK_FUNCTION_EXISTS=printstack   -o CMakeFiles/cmTC_15e66.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_15e66
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15e66.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -DCHECK_FUNCTION_EXISTS=printstack    -rdynamic CMakeFiles/cmTC_15e66.dir/CheckFunctionExists.c.o  -o cmTC_15e66 -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTC_15e66.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `printstack'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make[1]: *** [CMakeFiles/cmTC_15e66.dir/build.make:98: cmTC_15e66] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_15e66/fast] Fehler 2
+
+
+Determining if the function bfill exists failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_25465/fast"
+/usr/bin/make -f CMakeFiles/cmTC_25465.dir/build.make CMakeFiles/cmTC_25465.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_25465.dir/CheckFunctionExists.c.o
+/usr/bin/cc -DPACKAGE=test -D_GNU_SOURCE=1  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -DCHECK_FUNCTION_EXISTS=bfill   -o CMakeFiles/cmTC_25465.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_25465
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25465.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -DCHECK_FUNCTION_EXISTS=bfill    -rdynamic CMakeFiles/cmTC_25465.dir/CheckFunctionExists.c.o  -o cmTC_25465 -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTC_25465.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `bfill'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make[1]: *** [CMakeFiles/cmTC_25465.dir/build.make:98: cmTC_25465] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_25465/fast] Fehler 2
+
+
+Determining if the function compress exists failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f240f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f240f.dir/build.make CMakeFiles/cmTC_f240f.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_f240f.dir/CheckFunctionExists.c.o
+/usr/bin/cc -DPACKAGE=test -D_GNU_SOURCE=1  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -DCHECK_FUNCTION_EXISTS=compress   -o CMakeFiles/cmTC_f240f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f240f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f240f.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -DCHECK_FUNCTION_EXISTS=compress    -rdynamic CMakeFiles/cmTC_f240f.dir/CheckFunctionExists.c.o  -o cmTC_f240f -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTC_f240f.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `compress'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make[1]: *** [CMakeFiles/cmTC_f240f.dir/build.make:98: cmTC_f240f] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_f240f/fast] Fehler 2
+
+
+Determining if the function gethrtime exists failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3e17d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3e17d.dir/build.make CMakeFiles/cmTC_3e17d.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_3e17d.dir/CheckFunctionExists.c.o
+/usr/bin/cc -DPACKAGE=test -D_GNU_SOURCE=1  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -DCHECK_FUNCTION_EXISTS=gethrtime   -o CMakeFiles/cmTC_3e17d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3e17d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e17d.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -DCHECK_FUNCTION_EXISTS=gethrtime    -rdynamic CMakeFiles/cmTC_3e17d.dir/CheckFunctionExists.c.o  -o cmTC_3e17d -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTC_3e17d.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `gethrtime'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make[1]: *** [CMakeFiles/cmTC_3e17d.dir/build.make:98: cmTC_3e17d] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_3e17d/fast] Fehler 2
+
+
+Determining if the function getpassphrase exists failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f5399/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f5399.dir/build.make CMakeFiles/cmTC_f5399.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_f5399.dir/CheckFunctionExists.c.o
+/usr/bin/cc -DPACKAGE=test -D_GNU_SOURCE=1  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -DCHECK_FUNCTION_EXISTS=getpassphrase   -o CMakeFiles/cmTC_f5399.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f5399
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5399.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -DCHECK_FUNCTION_EXISTS=getpassphrase    -rdynamic CMakeFiles/cmTC_f5399.dir/CheckFunctionExists.c.o  -o cmTC_f5399 -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTC_f5399.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `getpassphrase'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make[1]: *** [CMakeFiles/cmTC_f5399.dir/build.make:98: cmTC_f5399] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_f5399/fast] Fehler 2
+
+
+Determining if the function pthread_attr_create exists failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1eac8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1eac8.dir/build.make CMakeFiles/cmTC_1eac8.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_1eac8.dir/CheckFunctionExists.c.o
+/usr/bin/cc -DPACKAGE=test -D_GNU_SOURCE=1  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -DCHECK_FUNCTION_EXISTS=pthread_attr_create   -o CMakeFiles/cmTC_1eac8.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1eac8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1eac8.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -DCHECK_FUNCTION_EXISTS=pthread_attr_create    -rdynamic CMakeFiles/cmTC_1eac8.dir/CheckFunctionExists.c.o  -o cmTC_1eac8 -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTC_1eac8.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `pthread_attr_create'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make[1]: *** [CMakeFiles/cmTC_1eac8.dir/build.make:98: cmTC_1eac8] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_1eac8/fast] Fehler 2
+
+
+Determining if the function pthread_condattr_create exists failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f5c1b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f5c1b.dir/build.make CMakeFiles/cmTC_f5c1b.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_f5c1b.dir/CheckFunctionExists.c.o
+/usr/bin/cc -DPACKAGE=test -D_GNU_SOURCE=1  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -DCHECK_FUNCTION_EXISTS=pthread_condattr_create   -o CMakeFiles/cmTC_f5c1b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f5c1b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5c1b.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -DCHECK_FUNCTION_EXISTS=pthread_condattr_create    -rdynamic CMakeFiles/cmTC_f5c1b.dir/CheckFunctionExists.c.o  -o cmTC_f5c1b -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTC_f5c1b.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `pthread_condattr_create'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make[1]: *** [CMakeFiles/cmTC_f5c1b.dir/build.make:98: cmTC_f5c1b] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_f5c1b/fast] Fehler 2
+
+
+Determining if the function pthread_yield_np exists failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_15eef/fast"
+/usr/bin/make -f CMakeFiles/cmTC_15eef.dir/build.make CMakeFiles/cmTC_15eef.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_15eef.dir/CheckFunctionExists.c.o
+/usr/bin/cc -DPACKAGE=test -D_GNU_SOURCE=1  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -DCHECK_FUNCTION_EXISTS=pthread_yield_np   -o CMakeFiles/cmTC_15eef.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_15eef
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15eef.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -DCHECK_FUNCTION_EXISTS=pthread_yield_np    -rdynamic CMakeFiles/cmTC_15eef.dir/CheckFunctionExists.c.o  -o cmTC_15eef -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTC_15eef.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `pthread_yield_np'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make[1]: *** [CMakeFiles/cmTC_15eef.dir/build.make:98: cmTC_15eef] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_15eef/fast] Fehler 2
+
+
+Determining if the function rwlock_init exists failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1d53a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1d53a.dir/build.make CMakeFiles/cmTC_1d53a.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_1d53a.dir/CheckFunctionExists.c.o
+/usr/bin/cc -DPACKAGE=test -D_GNU_SOURCE=1  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -DCHECK_FUNCTION_EXISTS=rwlock_init   -o CMakeFiles/cmTC_1d53a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1d53a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d53a.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -DCHECK_FUNCTION_EXISTS=rwlock_init    -rdynamic CMakeFiles/cmTC_1d53a.dir/CheckFunctionExists.c.o  -o cmTC_1d53a -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTC_1d53a.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `rwlock_init'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make[1]: *** [CMakeFiles/cmTC_1d53a.dir/build.make:98: cmTC_1d53a] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_1d53a/fast] Fehler 2
+
+
+Determining if the function sigthreadmask exists failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_98602/fast"
+/usr/bin/make -f CMakeFiles/cmTC_98602.dir/build.make CMakeFiles/cmTC_98602.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_98602.dir/CheckFunctionExists.c.o
+/usr/bin/cc -DPACKAGE=test -D_GNU_SOURCE=1  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -DCHECK_FUNCTION_EXISTS=sigthreadmask   -o CMakeFiles/cmTC_98602.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_98602
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98602.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -DCHECK_FUNCTION_EXISTS=sigthreadmask    -rdynamic CMakeFiles/cmTC_98602.dir/CheckFunctionExists.c.o  -o cmTC_98602 -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTC_98602.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `sigthreadmask'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make[1]: *** [CMakeFiles/cmTC_98602.dir/build.make:98: cmTC_98602] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_98602/fast] Fehler 2
+
+
+Determining if the function tell exists failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e7de0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e7de0.dir/build.make CMakeFiles/cmTC_e7de0.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_e7de0.dir/CheckFunctionExists.c.o
+/usr/bin/cc -DPACKAGE=test -D_GNU_SOURCE=1  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -DCHECK_FUNCTION_EXISTS=tell   -o CMakeFiles/cmTC_e7de0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e7de0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7de0.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -DCHECK_FUNCTION_EXISTS=tell    -rdynamic CMakeFiles/cmTC_e7de0.dir/CheckFunctionExists.c.o  -o cmTC_e7de0 -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTC_e7de0.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `tell'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make[1]: *** [CMakeFiles/cmTC_e7de0.dir/build.make:98: cmTC_e7de0] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_e7de0/fast] Fehler 2
+
+
+Determining if the function thr_setconcurrency exists failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c1837/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c1837.dir/build.make CMakeFiles/cmTC_c1837.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_c1837.dir/CheckFunctionExists.c.o
+/usr/bin/cc -DPACKAGE=test -D_GNU_SOURCE=1  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -DCHECK_FUNCTION_EXISTS=thr_setconcurrency   -o CMakeFiles/cmTC_c1837.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c1837
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1837.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -DCHECK_FUNCTION_EXISTS=thr_setconcurrency    -rdynamic CMakeFiles/cmTC_c1837.dir/CheckFunctionExists.c.o  -o cmTC_c1837 -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTC_c1837.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `thr_setconcurrency'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make[1]: *** [CMakeFiles/cmTC_c1837.dir/build.make:98: cmTC_c1837] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_c1837/fast] Fehler 2
+
+
+Determining if the function thr_yield exists failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_51fe4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_51fe4.dir/build.make CMakeFiles/cmTC_51fe4.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_51fe4.dir/CheckFunctionExists.c.o
+/usr/bin/cc -DPACKAGE=test -D_GNU_SOURCE=1  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -DCHECK_FUNCTION_EXISTS=thr_yield   -o CMakeFiles/cmTC_51fe4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_51fe4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51fe4.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -DCHECK_FUNCTION_EXISTS=thr_yield    -rdynamic CMakeFiles/cmTC_51fe4.dir/CheckFunctionExists.c.o  -o cmTC_51fe4 -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTC_51fe4.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `thr_yield'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make[1]: *** [CMakeFiles/cmTC_51fe4.dir/build.make:98: cmTC_51fe4] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_51fe4/fast] Fehler 2
+
+
+Determining if files ia64intrin.h exist failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7da24/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7da24.dir/build.make CMakeFiles/cmTC_7da24.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_7da24.dir/CheckIncludeFiles.c.o
+/usr/bin/cc -DPACKAGE=test -D_GNU_SOURCE=1  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES    -o CMakeFiles/cmTC_7da24.dir/CheckIncludeFiles.c.o   -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: schwerwiegender Fehler: ia64intrin.h: Datei oder Verzeichnis nicht gefunden
+ #include <ia64intrin.h>
+          ^~~~~~~~~~~~~~
+Kompilierung beendet.
+make[1]: *** [CMakeFiles/cmTC_7da24.dir/build.make:66: CMakeFiles/cmTC_7da24.dir/CheckIncludeFiles.c.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_7da24/fast] Fehler 2
+
+Source:
+/* */
+#include <ia64intrin.h>
+
+
+int main(void){return 0;}
+
+Determining if the function read_real_time exists failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0635f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0635f.dir/build.make CMakeFiles/cmTC_0635f.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_0635f.dir/CheckFunctionExists.c.o
+/usr/bin/cc -DPACKAGE=test -D_GNU_SOURCE=1  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -DCHECK_FUNCTION_EXISTS=read_real_time   -o CMakeFiles/cmTC_0635f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0635f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0635f.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -DCHECK_FUNCTION_EXISTS=read_real_time    -rdynamic CMakeFiles/cmTC_0635f.dir/CheckFunctionExists.c.o  -o cmTC_0635f -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTC_0635f.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `read_real_time'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make[1]: *** [CMakeFiles/cmTC_0635f.dir/build.make:98: cmTC_0635f] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_0635f/fast] Fehler 2
+
+
+Determining if the function rdtscll exists failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_71f50/fast"
+/usr/bin/make -f CMakeFiles/cmTC_71f50.dir/build.make CMakeFiles/cmTC_71f50.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_71f50.dir/CheckFunctionExists.c.o
+/usr/bin/cc -DPACKAGE=test -D_GNU_SOURCE=1  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -DCHECK_FUNCTION_EXISTS=rdtscll   -o CMakeFiles/cmTC_71f50.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_71f50
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71f50.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -DCHECK_FUNCTION_EXISTS=rdtscll    -rdynamic CMakeFiles/cmTC_71f50.dir/CheckFunctionExists.c.o  -o cmTC_71f50 -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTC_71f50.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `rdtscll'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make[1]: *** [CMakeFiles/cmTC_71f50.dir/build.make:98: cmTC_71f50] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_71f50/fast] Fehler 2
+
+
+Determining if the TIOCSTAT exist failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cabad/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cabad.dir/build.make CMakeFiles/cmTC_cabad.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_cabad.dir/CheckSymbolExists.c.o
+/usr/bin/cc -DPACKAGE=test -D_GNU_SOURCE=1  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES    -o CMakeFiles/cmTC_cabad.dir/CheckSymbolExists.c.o   -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In Funktion »main«:
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: Fehler: »TIOCSTAT« nicht deklariert (erstmalige Verwendung in dieser Funktion); meinten Sie »TIOCSTI«?
+   return ((int*)(&TIOCSTAT))[argc];
+                   ^~~~~~~~
+                   TIOCSTI
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: Anmerkung: jeder nicht deklarierte Bezeichner wird nur einmal für jede Funktion, in der er vorkommt, gemeldet
+make[1]: *** [CMakeFiles/cmTC_cabad.dir/build.make:66: CMakeFiles/cmTC_cabad.dir/CheckSymbolExists.c.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_cabad/fast] Fehler 2
+
+File /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/ioctl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef TIOCSTAT
+  return ((int*)(&TIOCSTAT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the FIONREAD exist failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2790a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2790a.dir/build.make CMakeFiles/cmTC_2790a.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_2790a.dir/CheckSymbolExists.c.o
+/usr/bin/cc -DPACKAGE=test -D_GNU_SOURCE=1  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES    -o CMakeFiles/cmTC_2790a.dir/CheckSymbolExists.c.o   -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: schwerwiegender Fehler: sys/filio.h: Datei oder Verzeichnis nicht gefunden
+ #include <sys/filio.h>
+          ^~~~~~~~~~~~~
+Kompilierung beendet.
+make[1]: *** [CMakeFiles/cmTC_2790a.dir/build.make:66: CMakeFiles/cmTC_2790a.dir/CheckSymbolExists.c.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_2790a/fast] Fehler 2
+
+File /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/filio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FIONREAD
+  return ((int*)(&FIONREAD))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining size of uchar failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2383d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2383d.dir/build.make CMakeFiles/cmTC_2383d.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_2383d.dir/SIZEOF_UCHAR.c.o
+/usr/bin/cc -DPACKAGE=test -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES    -o CMakeFiles/cmTC_2383d.dir/SIZEOF_UCHAR.c.o   -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:19:22: Fehler: »uchar« ist hier (außerhalb einer Funktion) nicht deklariert; meinten Sie »u_char«?
+ #define SIZE (sizeof(uchar))
+                      ^
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:21:12: Anmerkung: bei Substitution des Makros »SIZE«
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+make[1]: *** [CMakeFiles/cmTC_2383d.dir/build.make:66: CMakeFiles/cmTC_2383d.dir/SIZEOF_UCHAR.c.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_2383d/fast] Fehler 2
+
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(uchar))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of int8 failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_56f14/fast"
+/usr/bin/make -f CMakeFiles/cmTC_56f14.dir/build.make CMakeFiles/cmTC_56f14.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_56f14.dir/SIZEOF_INT8.c.o
+/usr/bin/cc -DPACKAGE=test -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES    -o CMakeFiles/cmTC_56f14.dir/SIZEOF_INT8.c.o   -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:19:22: Fehler: »int8« ist hier (außerhalb einer Funktion) nicht deklariert; meinten Sie »int«?
+ #define SIZE (sizeof(int8))
+                      ^
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:21:12: Anmerkung: bei Substitution des Makros »SIZE«
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+make[1]: *** [CMakeFiles/cmTC_56f14.dir/build.make:66: CMakeFiles/cmTC_56f14.dir/SIZEOF_INT8.c.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_56f14/fast] Fehler 2
+
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(int8))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of uint8 failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3dc21/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3dc21.dir/build.make CMakeFiles/cmTC_3dc21.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_3dc21.dir/SIZEOF_UINT8.c.o
+/usr/bin/cc -DPACKAGE=test -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES    -o CMakeFiles/cmTC_3dc21.dir/SIZEOF_UINT8.c.o   -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c:19:22: Fehler: »uint8« ist hier (außerhalb einer Funktion) nicht deklariert; meinten Sie »uint«?
+ #define SIZE (sizeof(uint8))
+                      ^
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c:21:12: Anmerkung: bei Substitution des Makros »SIZE«
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+make[1]: *** [CMakeFiles/cmTC_3dc21.dir/build.make:66: CMakeFiles/cmTC_3dc21.dir/SIZEOF_UINT8.c.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_3dc21/fast] Fehler 2
+
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(uint8))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of int16 failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9ee89/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9ee89.dir/build.make CMakeFiles/cmTC_9ee89.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_9ee89.dir/SIZEOF_INT16.c.o
+/usr/bin/cc -DPACKAGE=test -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES    -o CMakeFiles/cmTC_9ee89.dir/SIZEOF_INT16.c.o   -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c:19:22: Fehler: »int16« ist hier (außerhalb einer Funktion) nicht deklariert; meinten Sie »int16_t«?
+ #define SIZE (sizeof(int16))
+                      ^
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c:21:12: Anmerkung: bei Substitution des Makros »SIZE«
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+make[1]: *** [CMakeFiles/cmTC_9ee89.dir/build.make:66: CMakeFiles/cmTC_9ee89.dir/SIZEOF_INT16.c.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_9ee89/fast] Fehler 2
+
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(int16))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of uint16 failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2e131/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2e131.dir/build.make CMakeFiles/cmTC_2e131.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_2e131.dir/SIZEOF_UINT16.c.o
+/usr/bin/cc -DPACKAGE=test -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES    -o CMakeFiles/cmTC_2e131.dir/SIZEOF_UINT16.c.o   -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c:19:22: Fehler: »uint16« ist hier (außerhalb einer Funktion) nicht deklariert; meinten Sie »uint16_t«?
+ #define SIZE (sizeof(uint16))
+                      ^
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c:21:12: Anmerkung: bei Substitution des Makros »SIZE«
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+make[1]: *** [CMakeFiles/cmTC_2e131.dir/build.make:66: CMakeFiles/cmTC_2e131.dir/SIZEOF_UINT16.c.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_2e131/fast] Fehler 2
+
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(uint16))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of int32 failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e21cd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e21cd.dir/build.make CMakeFiles/cmTC_e21cd.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_e21cd.dir/SIZEOF_INT32.c.o
+/usr/bin/cc -DPACKAGE=test -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES    -o CMakeFiles/cmTC_e21cd.dir/SIZEOF_INT32.c.o   -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c:19:22: Fehler: »int32« ist hier (außerhalb einer Funktion) nicht deklariert; meinten Sie »int32_t«?
+ #define SIZE (sizeof(int32))
+                      ^
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c:21:12: Anmerkung: bei Substitution des Makros »SIZE«
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+make[1]: *** [CMakeFiles/cmTC_e21cd.dir/build.make:66: CMakeFiles/cmTC_e21cd.dir/SIZEOF_INT32.c.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_e21cd/fast] Fehler 2
+
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(int32))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of uint32 failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2da14/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2da14.dir/build.make CMakeFiles/cmTC_2da14.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_2da14.dir/SIZEOF_UINT32.c.o
+/usr/bin/cc -DPACKAGE=test -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES    -o CMakeFiles/cmTC_2da14.dir/SIZEOF_UINT32.c.o   -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c:19:22: Fehler: »uint32« ist hier (außerhalb einer Funktion) nicht deklariert; meinten Sie »uint32_t«?
+ #define SIZE (sizeof(uint32))
+                      ^
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c:21:12: Anmerkung: bei Substitution des Makros »SIZE«
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+make[1]: *** [CMakeFiles/cmTC_2da14.dir/build.make:66: CMakeFiles/cmTC_2da14.dir/SIZEOF_UINT32.c.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_2da14/fast] Fehler 2
+
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(uint32))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of int64 failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_51e5e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_51e5e.dir/build.make CMakeFiles/cmTC_51e5e.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_51e5e.dir/SIZEOF_INT64.c.o
+/usr/bin/cc -DPACKAGE=test -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES    -o CMakeFiles/cmTC_51e5e.dir/SIZEOF_INT64.c.o   -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c:19:22: Fehler: »int64« ist hier (außerhalb einer Funktion) nicht deklariert; meinten Sie »int64_t«?
+ #define SIZE (sizeof(int64))
+                      ^
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c:21:12: Anmerkung: bei Substitution des Makros »SIZE«
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+make[1]: *** [CMakeFiles/cmTC_51e5e.dir/build.make:66: CMakeFiles/cmTC_51e5e.dir/SIZEOF_INT64.c.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_51e5e/fast] Fehler 2
+
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(int64))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of uint64 failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_46253/fast"
+/usr/bin/make -f CMakeFiles/cmTC_46253.dir/build.make CMakeFiles/cmTC_46253.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_46253.dir/SIZEOF_UINT64.c.o
+/usr/bin/cc -DPACKAGE=test -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES    -o CMakeFiles/cmTC_46253.dir/SIZEOF_UINT64.c.o   -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c:19:22: Fehler: »uint64« ist hier (außerhalb einer Funktion) nicht deklariert; meinten Sie »uint64_t«?
+ #define SIZE (sizeof(uint64))
+                      ^
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c:21:12: Anmerkung: bei Substitution des Makros »SIZE«
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+make[1]: *** [CMakeFiles/cmTC_46253.dir/build.make:66: CMakeFiles/cmTC_46253.dir/SIZEOF_UINT64.c.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_46253/fast] Fehler 2
+
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(uint64))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Performing C SOURCE FILE Test TIME_T_UNSIGNED failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_38af3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_38af3.dir/build.make CMakeFiles/cmTC_38af3.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_38af3.dir/src.c.o
+/usr/bin/cc -DPACKAGE=test -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -DTIME_T_UNSIGNED   -o CMakeFiles/cmTC_38af3.dir/src.c.o   -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/src.c
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/src.c: In Funktion »main«:
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/src.c:5:7: Fehler: Größe des Arrays »array« ist negativ
+   int array[(((time_t)-1) > 0) ? 1 : -1];
+       ^~~~~
+make[1]: *** [CMakeFiles/cmTC_38af3.dir/build.make:66: CMakeFiles/cmTC_38af3.dir/src.c.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_38af3/fast] Fehler 2
+
+Source file was:
+
+#include <time.h>
+int main()
+{
+  int array[(((time_t)-1) > 0) ? 1 : -1];
+  return 0;
+}
+Performing C SOURCE FILE Test HAVE_TIMESPEC_TS_SEC failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1ee65/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1ee65.dir/build.make CMakeFiles/cmTC_1ee65.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_1ee65.dir/src.c.o
+/usr/bin/cc -DPACKAGE=test -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -DHAVE_TIMESPEC_TS_SEC   -o CMakeFiles/cmTC_1ee65.dir/src.c.o   -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/src.c
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/src.c: In Funktion »main«:
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/src.c:7:11: Fehler: »struct timespec« hat kein Element namens »ts_sec«; meinten Sie »tv_sec«?
+   abstime.ts_sec = time(NULL)+1;
+           ^~~~~~
+           tv_sec
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/src.c:8:11: Fehler: »struct timespec« hat kein Element namens »ts_nsec«; meinten Sie »tv_nsec«?
+   abstime.ts_nsec = 0;
+           ^~~~~~~
+           tv_nsec
+make[1]: *** [CMakeFiles/cmTC_1ee65.dir/build.make:66: CMakeFiles/cmTC_1ee65.dir/src.c.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_1ee65/fast] Fehler 2
+
+Source file was:
+
+#include <pthread.h>
+
+int main(int ac, char **av)
+{
+  struct timespec abstime;
+  abstime.ts_sec = time(NULL)+1;
+  abstime.ts_nsec = 0;
+}
+
+Performing C++ SOURCE FILE Test HAVE_SOLARIS_STYLE_GETHOST failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_200d6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_200d6.dir/build.make CMakeFiles/cmTC_200d6.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building CXX object CMakeFiles/cmTC_200d6.dir/src.cxx.o
+/usr/bin/c++  -DPACKAGE=test -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -fno-rtti -DHAVE_SOLARIS_STYLE_GETHOST   -o CMakeFiles/cmTC_200d6.dir/src.cxx.o -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/src.cxx
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/src.cxx: In Funktion »int main()«:
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/src.cxx:17:66: Fehler: »int*« kann nicht nach »hostent**« für Argument »7« nach »int gethostbyaddr_r(const void*, __socklen_t, int, hostent*, char*, size_t, hostent**, int*)« umgewandelt werden
+           0, 0, (struct hostent *) 0, (char *) NULL,  0, (int *)0);
+                                                                  ^
+make[1]: *** [CMakeFiles/cmTC_200d6.dir/build.make:66: CMakeFiles/cmTC_200d6.dir/src.cxx.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_200d6/fast] Fehler 2
+
+Source file was:
+
+    #undef inline
+    #if !defined(SCO) && !defined(__osf__) && !defined(_REENTRANT)
+    #define _REENTRANT
+    #endif
+    #include <pthread.h>
+    #include <sys/types.h>
+    #include <sys/socket.h>
+    #include <netinet/in.h>
+    #include <arpa/inet.h>
+    #include <netdb.h>
+    int main()
+    {
+
+       struct hostent *foo =
+       gethostbyaddr_r((const char *) 0,
+          0, 0, (struct hostent *) 0, (char *) NULL,  0, (int *)0);
+       return 0;
+    }
+  
+Determining if the include file netinet/in6.h exists failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9448f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9448f.dir/build.make CMakeFiles/cmTC_9448f.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_9448f.dir/CheckIncludeFile.c.o
+/usr/bin/cc -DPACKAGE=test -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES    -o CMakeFiles/cmTC_9448f.dir/CheckIncludeFile.c.o   -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: schwerwiegender Fehler: netinet/in6.h: Datei oder Verzeichnis nicht gefunden
+ #include <netinet/in6.h>
+          ^~~~~~~~~~~~~~~
+Kompilierung beendet.
+make[1]: *** [CMakeFiles/cmTC_9448f.dir/build.make:66: CMakeFiles/cmTC_9448f.dir/CheckIncludeFile.c.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_9448f/fast] Fehler 2
+
+
+Performing C SOURCE FILE Test HAVE_SOCKADDR_IN_SIN_LEN failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_35b7b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_35b7b.dir/build.make CMakeFiles/cmTC_35b7b.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_35b7b.dir/src.c.o
+/usr/bin/cc -DPACKAGE=test -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -DHAVE_SOCKADDR_IN_SIN_LEN   -o CMakeFiles/cmTC_35b7b.dir/src.c.o   -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/src.c
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/src.c: In Funktion »main«:
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/src.c:8:44: Fehler: »struct sockaddr_in« hat kein Element namens »sin_len«; meinten Sie »sin_zero«?
+    (void)sizeof(((struct sockaddr_in *)0)->sin_len);
+                                            ^~~~~~~
+                                            sin_zero
+make[1]: *** [CMakeFiles/cmTC_35b7b.dir/build.make:66: CMakeFiles/cmTC_35b7b.dir/src.c.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_35b7b/fast] Fehler 2
+
+Source file was:
+
+#include <sys/types.h>
+#include <netinet/in.h>
+#include <sys/socket.h>
+
+int main()
+{
+   (void)sizeof(((struct sockaddr_in *)0)->sin_len);
+   return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_SOCKADDR_IN6_SIN6_LEN failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4e4c5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4e4c5.dir/build.make CMakeFiles/cmTC_4e4c5.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_4e4c5.dir/src.c.o
+/usr/bin/cc -DPACKAGE=test -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -DHAVE_SOCKADDR_IN6_SIN6_LEN   -o CMakeFiles/cmTC_4e4c5.dir/src.c.o   -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/src.c
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/src.c: In Funktion »main«:
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/src.c:8:45: Fehler: »struct sockaddr_in6« hat kein Element namens »sin6_len«; meinten Sie »sin6_port«?
+    (void)sizeof(((struct sockaddr_in6 *)0)->sin6_len);
+                                             ^~~~~~~~
+                                             sin6_port
+make[1]: *** [CMakeFiles/cmTC_4e4c5.dir/build.make:66: CMakeFiles/cmTC_4e4c5.dir/src.c.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_4e4c5/fast] Fehler 2
+
+Source file was:
+
+#include <sys/types.h>
+#include <netinet/in.h>
+#include <sys/socket.h>
+
+int main()
+{
+   (void)sizeof(((struct sockaddr_in6 *)0)->sin6_len);
+   return 0;
+}
+
+Performing C SOURCE FILE Test READLINE_V5 failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_53abd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_53abd.dir/build.make CMakeFiles/cmTC_53abd.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_53abd.dir/src.c.o
+/usr/bin/cc -DPACKAGE=test -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/usr/include/readline  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -DREADLINE_V5   -o CMakeFiles/cmTC_53abd.dir/src.c.o   -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/src.c
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/src.c:5:6: Fehler: #error 
+     #error
+      ^~~~~
+make[1]: *** [CMakeFiles/cmTC_53abd.dir/build.make:66: CMakeFiles/cmTC_53abd.dir/src.c.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_53abd/fast] Fehler 2
+
+Source file was:
+
+    #include <stdio.h>
+    #include <readline.h>
+    #if RL_VERSION_MAJOR > 5
+    #error
+    #endif
+    int main(int argc, char **argv)
+    {
+      return 0;
+    }
+Performing C++ SOURCE FILE Test LIBEDIT_INTERFACE failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eea5f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eea5f.dir/build.make CMakeFiles/cmTC_eea5f.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building CXX object CMakeFiles/cmTC_eea5f.dir/src.cxx.o
+/usr/bin/c++  -DPACKAGE=test -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/usr/include/editline  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -fno-rtti -DLIBEDIT_INTERFACE   -o CMakeFiles/cmTC_eea5f.dir/src.cxx.o -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/src.cxx
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/src.cxx: In Funktion »int main(int, char**)«:
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/src.cxx:6:47: Fehler: ungültige Umwandlung von »char*« in »int« [-fpermissive]
+       int res= (*rl_completion_entry_function)(0,0);
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+make[1]: *** [CMakeFiles/cmTC_eea5f.dir/build.make:66: CMakeFiles/cmTC_eea5f.dir/src.cxx.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_eea5f/fast] Fehler 2
+
+Source file was:
+
+    #include <stdio.h>
+    #include <readline.h>
+    int main(int argc, char **argv)
+    {
+      int res= (*rl_completion_entry_function)(0,0);
+      completion_matches(0,0);
+    }
+Determining if the function dlopen exists failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_73298/fast"
+/usr/bin/make -f CMakeFiles/cmTC_73298.dir/build.make CMakeFiles/cmTC_73298.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_73298.dir/CheckFunctionExists.c.o
+/usr/bin/cc -DPACKAGE=test -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -Wunused -Wno-uninitialized -Wall -Wextra -Wformat-security -Wno-init-self -Wwrite-strings -Wshift-count-overflow -Wdeclaration-after-statement -DCHECK_FUNCTION_EXISTS=dlopen   -o CMakeFiles/cmTC_73298.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_73298
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73298.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -Wunused -Wno-uninitialized -Wall -Wextra -Wformat-security -Wno-init-self -Wwrite-strings -Wshift-count-overflow -Wdeclaration-after-statement -DCHECK_FUNCTION_EXISTS=dlopen    -rdynamic CMakeFiles/cmTC_73298.dir/CheckFunctionExists.c.o  -o cmTC_73298 
+CMakeFiles/cmTC_73298.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `dlopen'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make[1]: *** [CMakeFiles/cmTC_73298.dir/build.make:98: cmTC_73298] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_73298/fast] Fehler 2
+
+
+Determining if the function floor exists failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_394a3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_394a3.dir/build.make CMakeFiles/cmTC_394a3.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_394a3.dir/CheckFunctionExists.c.o
+/usr/bin/cc -DPACKAGE=test -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -Wunused -Wno-uninitialized -Wall -Wextra -Wformat-security -Wno-init-self -Wwrite-strings -Wshift-count-overflow -Wdeclaration-after-statement -DCHECK_FUNCTION_EXISTS=floor   -o CMakeFiles/cmTC_394a3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.8/Modules/CheckFunctionExists.c
+<Kommandozeile>:0:23: Warnung: In Konflikt stehende Typen für eingebaute Funktion »floor« [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.8/Modules/CheckFunctionExists.c:7:3: Anmerkung: bei Substitution des Makros »CHECK_FUNCTION_EXISTS«
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_394a3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_394a3.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -Wunused -Wno-uninitialized -Wall -Wextra -Wformat-security -Wno-init-self -Wwrite-strings -Wshift-count-overflow -Wdeclaration-after-statement -DCHECK_FUNCTION_EXISTS=floor    -rdynamic CMakeFiles/cmTC_394a3.dir/CheckFunctionExists.c.o  -o cmTC_394a3 
+CMakeFiles/cmTC_394a3.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `floor'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make[1]: *** [CMakeFiles/cmTC_394a3.dir/build.make:98: cmTC_394a3] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_394a3/fast] Fehler 2
+
+
+Determining if the function pthread_getspecific exists failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_59c88/fast"
+/usr/bin/make -f CMakeFiles/cmTC_59c88.dir/build.make CMakeFiles/cmTC_59c88.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_59c88.dir/CheckFunctionExists.c.o
+/usr/bin/cc -DPACKAGE=test -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -Wunused -Wno-uninitialized -Wall -Wextra -Wformat-security -Wno-init-self -Wwrite-strings -Wshift-count-overflow -Wdeclaration-after-statement -DCHECK_FUNCTION_EXISTS=pthread_getspecific   -o CMakeFiles/cmTC_59c88.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_59c88
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59c88.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -Wunused -Wno-uninitialized -Wall -Wextra -Wformat-security -Wno-init-self -Wwrite-strings -Wshift-count-overflow -Wdeclaration-after-statement -DCHECK_FUNCTION_EXISTS=pthread_getspecific    -rdynamic CMakeFiles/cmTC_59c88.dir/CheckFunctionExists.c.o  -o cmTC_59c88 
+CMakeFiles/cmTC_59c88.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `pthread_getspecific'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make[1]: *** [CMakeFiles/cmTC_59c88.dir/build.make:98: cmTC_59c88] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_59c88/fast] Fehler 2
+
+
+Determining if the function gethostbyname_r exists in the nsl_r failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_821da/fast"
+/usr/bin/make -f CMakeFiles/cmTC_821da.dir/build.make CMakeFiles/cmTC_821da.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_821da.dir/CheckFunctionExists.c.o
+/usr/bin/cc -DPACKAGE=test -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -Wunused -Wno-uninitialized -Wall -Wextra -Wformat-security -Wno-init-self -Wwrite-strings -Wshift-count-overflow -Wdeclaration-after-statement -DCHECK_FUNCTION_EXISTS=gethostbyname_r   -o CMakeFiles/cmTC_821da.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_821da
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_821da.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -Wunused -Wno-uninitialized -Wall -Wextra -Wformat-security -Wno-init-self -Wwrite-strings -Wshift-count-overflow -Wdeclaration-after-statement -DCHECK_FUNCTION_EXISTS=gethostbyname_r    -rdynamic CMakeFiles/cmTC_821da.dir/CheckFunctionExists.c.o  -o cmTC_821da -lnsl_r 
+/usr/bin/ld: cannot find -lnsl_r
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make[1]: *** [CMakeFiles/cmTC_821da.dir/build.make:98: cmTC_821da] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_821da/fast] Fehler 2
+
+
+Determining if the function setsockopt exists in the socket failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2a40c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2a40c.dir/build.make CMakeFiles/cmTC_2a40c.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_2a40c.dir/CheckFunctionExists.c.o
+/usr/bin/cc -DPACKAGE=test -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -Wunused -Wno-uninitialized -Wall -Wextra -Wformat-security -Wno-init-self -Wwrite-strings -Wshift-count-overflow -Wdeclaration-after-statement -DCHECK_FUNCTION_EXISTS=setsockopt   -o CMakeFiles/cmTC_2a40c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2a40c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a40c.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -Wunused -Wno-uninitialized -Wall -Wextra -Wformat-security -Wno-init-self -Wwrite-strings -Wshift-count-overflow -Wdeclaration-after-statement -DCHECK_FUNCTION_EXISTS=setsockopt    -rdynamic CMakeFiles/cmTC_2a40c.dir/CheckFunctionExists.c.o  -o cmTC_2a40c -lsocket 
+/usr/bin/ld: cannot find -lsocket
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make[1]: *** [CMakeFiles/cmTC_2a40c.dir/build.make:98: cmTC_2a40c] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_2a40c/fast] Fehler 2
+
+
+Determining if the function aiowait exists failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6e1a8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6e1a8.dir/build.make CMakeFiles/cmTC_6e1a8.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_6e1a8.dir/CheckFunctionExists.c.o
+/usr/bin/cc -DPACKAGE=test -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/pthread.h  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -Wunused -Wno-uninitialized -Wall -Wextra -Wformat-security -Wno-init-self -Wwrite-strings -Wshift-count-overflow -Wdeclaration-after-statement -DCHECK_FUNCTION_EXISTS=aiowait   -o CMakeFiles/cmTC_6e1a8.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6e1a8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e1a8.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -Wunused -Wno-uninitialized -Wall -Wextra -Wformat-security -Wno-init-self -Wwrite-strings -Wshift-count-overflow -Wdeclaration-after-statement -DCHECK_FUNCTION_EXISTS=aiowait    -rdynamic CMakeFiles/cmTC_6e1a8.dir/CheckFunctionExists.c.o  -o cmTC_6e1a8 -lnsl -ldl -lm -lpthread 
+CMakeFiles/cmTC_6e1a8.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `aiowait'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make[1]: *** [CMakeFiles/cmTC_6e1a8.dir/build.make:98: cmTC_6e1a8] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_6e1a8/fast] Fehler 2
+
+
+Determining if the function bmove exists failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7ede3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7ede3.dir/build.make CMakeFiles/cmTC_7ede3.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_7ede3.dir/CheckFunctionExists.c.o
+/usr/bin/cc -DPACKAGE=test -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/pthread.h  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -Wunused -Wno-uninitialized -Wall -Wextra -Wformat-security -Wno-init-self -Wwrite-strings -Wshift-count-overflow -Wdeclaration-after-statement -DCHECK_FUNCTION_EXISTS=bmove   -o CMakeFiles/cmTC_7ede3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7ede3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ede3.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -Wunused -Wno-uninitialized -Wall -Wextra -Wformat-security -Wno-init-self -Wwrite-strings -Wshift-count-overflow -Wdeclaration-after-statement -DCHECK_FUNCTION_EXISTS=bmove    -rdynamic CMakeFiles/cmTC_7ede3.dir/CheckFunctionExists.c.o  -o cmTC_7ede3 -lnsl -ldl -lm -lpthread 
+CMakeFiles/cmTC_7ede3.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `bmove'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make[1]: *** [CMakeFiles/cmTC_7ede3.dir/build.make:98: cmTC_7ede3] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_7ede3/fast] Fehler 2
+
+
+Determining if the function fconvert exists failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_87c86/fast"
+/usr/bin/make -f CMakeFiles/cmTC_87c86.dir/build.make CMakeFiles/cmTC_87c86.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_87c86.dir/CheckFunctionExists.c.o
+/usr/bin/cc -DPACKAGE=test -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/pthread.h  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -Wunused -Wno-uninitialized -Wall -Wextra -Wformat-security -Wno-init-self -Wwrite-strings -Wshift-count-overflow -Wdeclaration-after-statement -DCHECK_FUNCTION_EXISTS=fconvert   -o CMakeFiles/cmTC_87c86.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_87c86
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87c86.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -Wunused -Wno-uninitialized -Wall -Wextra -Wformat-security -Wno-init-self -Wwrite-strings -Wshift-count-overflow -Wdeclaration-after-statement -DCHECK_FUNCTION_EXISTS=fconvert    -rdynamic CMakeFiles/cmTC_87c86.dir/CheckFunctionExists.c.o  -o cmTC_87c86 -lnsl -ldl -lm -lpthread 
+CMakeFiles/cmTC_87c86.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `fconvert'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make[1]: *** [CMakeFiles/cmTC_87c86.dir/build.make:98: cmTC_87c86] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_87c86/fast] Fehler 2
+
+
+Determining if the function pthread_attr_setprio exists failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_88829/fast"
+/usr/bin/make -f CMakeFiles/cmTC_88829.dir/build.make CMakeFiles/cmTC_88829.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_88829.dir/CheckFunctionExists.c.o
+/usr/bin/cc -DPACKAGE=test -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/pthread.h  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -Wunused -Wno-uninitialized -Wall -Wextra -Wformat-security -Wno-init-self -Wwrite-strings -Wshift-count-overflow -Wdeclaration-after-statement -DCHECK_FUNCTION_EXISTS=pthread_attr_setprio   -o CMakeFiles/cmTC_88829.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_88829
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88829.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -Wunused -Wno-uninitialized -Wall -Wextra -Wformat-security -Wno-init-self -Wwrite-strings -Wshift-count-overflow -Wdeclaration-after-statement -DCHECK_FUNCTION_EXISTS=pthread_attr_setprio    -rdynamic CMakeFiles/cmTC_88829.dir/CheckFunctionExists.c.o  -o cmTC_88829 -lnsl -ldl -lm -lpthread 
+CMakeFiles/cmTC_88829.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `pthread_attr_setprio'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make[1]: *** [CMakeFiles/cmTC_88829.dir/build.make:98: cmTC_88829] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_88829/fast] Fehler 2
+
+
+Determining if the function pthread_init exists failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_69e7f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_69e7f.dir/build.make CMakeFiles/cmTC_69e7f.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_69e7f.dir/CheckFunctionExists.c.o
+/usr/bin/cc -DPACKAGE=test -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/pthread.h  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -Wunused -Wno-uninitialized -Wall -Wextra -Wformat-security -Wno-init-self -Wwrite-strings -Wshift-count-overflow -Wdeclaration-after-statement -DCHECK_FUNCTION_EXISTS=pthread_init   -o CMakeFiles/cmTC_69e7f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_69e7f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69e7f.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -Wunused -Wno-uninitialized -Wall -Wextra -Wformat-security -Wno-init-self -Wwrite-strings -Wshift-count-overflow -Wdeclaration-after-statement -DCHECK_FUNCTION_EXISTS=pthread_init    -rdynamic CMakeFiles/cmTC_69e7f.dir/CheckFunctionExists.c.o  -o cmTC_69e7f -lnsl -ldl -lm -lpthread 
+CMakeFiles/cmTC_69e7f.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `pthread_init'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make[1]: *** [CMakeFiles/cmTC_69e7f.dir/build.make:98: cmTC_69e7f] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_69e7f/fast] Fehler 2
+
+
+Determining if the function pthread_setprio_np exists failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f052a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f052a.dir/build.make CMakeFiles/cmTC_f052a.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_f052a.dir/CheckFunctionExists.c.o
+/usr/bin/cc -DPACKAGE=test -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/pthread.h  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -Wunused -Wno-uninitialized -Wall -Wextra -Wformat-security -Wno-init-self -Wwrite-strings -Wshift-count-overflow -Wdeclaration-after-statement -DCHECK_FUNCTION_EXISTS=pthread_setprio_np   -o CMakeFiles/cmTC_f052a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f052a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f052a.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -Wunused -Wno-uninitialized -Wall -Wextra -Wformat-security -Wno-init-self -Wwrite-strings -Wshift-count-overflow -Wdeclaration-after-statement -DCHECK_FUNCTION_EXISTS=pthread_setprio_np    -rdynamic CMakeFiles/cmTC_f052a.dir/CheckFunctionExists.c.o  -o cmTC_f052a -lnsl -ldl -lm -lpthread 
+CMakeFiles/cmTC_f052a.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `pthread_setprio_np'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make[1]: *** [CMakeFiles/cmTC_f052a.dir/build.make:98: cmTC_f052a] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_f052a/fast] Fehler 2
+
+
+Determining if the function pthread_threadmask exists failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c16e0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c16e0.dir/build.make CMakeFiles/cmTC_c16e0.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_c16e0.dir/CheckFunctionExists.c.o
+/usr/bin/cc -DPACKAGE=test -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/pthread.h  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -Wunused -Wno-uninitialized -Wall -Wextra -Wformat-security -Wno-init-self -Wwrite-strings -Wshift-count-overflow -Wdeclaration-after-statement -DCHECK_FUNCTION_EXISTS=pthread_threadmask   -o CMakeFiles/cmTC_c16e0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c16e0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c16e0.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -Wunused -Wno-uninitialized -Wall -Wextra -Wformat-security -Wno-init-self -Wwrite-strings -Wshift-count-overflow -Wdeclaration-after-statement -DCHECK_FUNCTION_EXISTS=pthread_threadmask    -rdynamic CMakeFiles/cmTC_c16e0.dir/CheckFunctionExists.c.o  -o cmTC_c16e0 -lnsl -ldl -lm -lpthread 
+CMakeFiles/cmTC_c16e0.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `pthread_threadmask'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make[1]: *** [CMakeFiles/cmTC_c16e0.dir/build.make:98: cmTC_c16e0] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_c16e0/fast] Fehler 2
+
+
+Determining if the function setfd exists failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4a544/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4a544.dir/build.make CMakeFiles/cmTC_4a544.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_4a544.dir/CheckFunctionExists.c.o
+/usr/bin/cc -DPACKAGE=test -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/pthread.h  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -Wunused -Wno-uninitialized -Wall -Wextra -Wformat-security -Wno-init-self -Wwrite-strings -Wshift-count-overflow -Wdeclaration-after-statement -DCHECK_FUNCTION_EXISTS=setfd   -o CMakeFiles/cmTC_4a544.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4a544
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a544.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -Wunused -Wno-uninitialized -Wall -Wextra -Wformat-security -Wno-init-self -Wwrite-strings -Wshift-count-overflow -Wdeclaration-after-statement -DCHECK_FUNCTION_EXISTS=setfd    -rdynamic CMakeFiles/cmTC_4a544.dir/CheckFunctionExists.c.o  -o cmTC_4a544 -lnsl -ldl -lm -lpthread 
+CMakeFiles/cmTC_4a544.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `setfd'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make[1]: *** [CMakeFiles/cmTC_4a544.dir/build.make:98: cmTC_4a544] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_4a544/fast] Fehler 2
+
+
+Determining if the function setfilepointer exists failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f8bb8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f8bb8.dir/build.make CMakeFiles/cmTC_f8bb8.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_f8bb8.dir/CheckFunctionExists.c.o
+/usr/bin/cc -DPACKAGE=test -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/pthread.h  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -Wunused -Wno-uninitialized -Wall -Wextra -Wformat-security -Wno-init-self -Wwrite-strings -Wshift-count-overflow -Wdeclaration-after-statement -DCHECK_FUNCTION_EXISTS=setfilepointer   -o CMakeFiles/cmTC_f8bb8.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f8bb8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8bb8.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -Wunused -Wno-uninitialized -Wall -Wextra -Wformat-security -Wno-init-self -Wwrite-strings -Wshift-count-overflow -Wdeclaration-after-statement -DCHECK_FUNCTION_EXISTS=setfilepointer    -rdynamic CMakeFiles/cmTC_f8bb8.dir/CheckFunctionExists.c.o  -o cmTC_f8bb8 -lnsl -ldl -lm -lpthread 
+CMakeFiles/cmTC_f8bb8.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `setfilepointer'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make[1]: *** [CMakeFiles/cmTC_f8bb8.dir/build.make:98: cmTC_f8bb8] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_f8bb8/fast] Fehler 2
+
+
+Determining if the function strlcpy exists failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f7235/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f7235.dir/build.make CMakeFiles/cmTC_f7235.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_f7235.dir/CheckFunctionExists.c.o
+/usr/bin/cc -DPACKAGE=test -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/pthread.h  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -Wunused -Wno-uninitialized -Wall -Wextra -Wformat-security -Wno-init-self -Wwrite-strings -Wshift-count-overflow -Wdeclaration-after-statement -DCHECK_FUNCTION_EXISTS=strlcpy   -o CMakeFiles/cmTC_f7235.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f7235
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7235.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -Wunused -Wno-uninitialized -Wall -Wextra -Wformat-security -Wno-init-self -Wwrite-strings -Wshift-count-overflow -Wdeclaration-after-statement -DCHECK_FUNCTION_EXISTS=strlcpy    -rdynamic CMakeFiles/cmTC_f7235.dir/CheckFunctionExists.c.o  -o cmTC_f7235 -lnsl -ldl -lm -lpthread 
+CMakeFiles/cmTC_f7235.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `strlcpy'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make[1]: *** [CMakeFiles/cmTC_f7235.dir/build.make:98: cmTC_f7235] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_f7235/fast] Fehler 2
+
+
+Determining size of socklen_t failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0d6a7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0d6a7.dir/build.make CMakeFiles/cmTC_0d6a7.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_0d6a7.dir/SIZEOF_SOCKLEN_T.c.o
+/usr/bin/cc -DPACKAGE=test -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/pthread.h  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -Wunused -Wno-uninitialized -Wall -Wextra -Wformat-security -Wno-init-self -Wwrite-strings -Wshift-count-overflow -Wdeclaration-after-statement    -o CMakeFiles/cmTC_0d6a7.dir/SIZEOF_SOCKLEN_T.c.o   -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CheckTypeSize/SIZEOF_SOCKLEN_T.c
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CheckTypeSize/SIZEOF_SOCKLEN_T.c:18:22: Fehler: »socklen_t« ist hier (außerhalb einer Funktion) nicht deklariert; meinten Sie »__socklen_t«?
+ #define SIZE (sizeof(socklen_t))
+                      ^
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CheckTypeSize/SIZEOF_SOCKLEN_T.c:20:12: Anmerkung: bei Substitution des Makros »SIZE«
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+make[1]: *** [CMakeFiles/cmTC_0d6a7.dir/build.make:66: CMakeFiles/cmTC_0d6a7.dir/SIZEOF_SOCKLEN_T.c.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_0d6a7/fast] Fehler 2
+
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CheckTypeSize/SIZEOF_SOCKLEN_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(socklen_t))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function _gmtime64_s exists failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_25c05/fast"
+/usr/bin/make -f CMakeFiles/cmTC_25c05.dir/build.make CMakeFiles/cmTC_25c05.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_25c05.dir/CheckFunctionExists.c.o
+/usr/bin/cc -DPACKAGE=test -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -Wall -Wextra -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-sign-compare -Wno-pointer-sign -Wno-missing-field-initializers -Wformat=2 -Wstrict-aliasing=2 -fno-strict-aliasing -Wdisabled-optimization -Wfloat-equal -Wpointer-arith -Wdeclaration-after-statement -Wbad-function-cast -Wcast-align -Wwrite-strings -fexceptions -fimplicit-templates -Wno-clobbered -DCHECK_FUNCTION_EXISTS=_gmtime64_s   -o CMakeFiles/cmTC_25c05.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.8/Modules/CheckFunctionExists.c
+cc1: Warnung: Kommandozeilenoption »-fimplicit-templates« ist gültig für C++/ObjC++, aber nicht für C
+Linking C executable cmTC_25c05
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25c05.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -Wall -Wextra -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-sign-compare -Wno-pointer-sign -Wno-missing-field-initializers -Wformat=2 -Wstrict-aliasing=2 -fno-strict-aliasing -Wdisabled-optimization -Wfloat-equal -Wpointer-arith -Wdeclaration-after-statement -Wbad-function-cast -Wcast-align -Wwrite-strings -fexceptions -fimplicit-templates -Wno-clobbered -DCHECK_FUNCTION_EXISTS=_gmtime64_s    -rdynamic CMakeFiles/cmTC_25c05.dir/CheckFunctionExists.c.o  -o cmTC_25c05 
+CMakeFiles/cmTC_25c05.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_gmtime64_s'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make[1]: *** [CMakeFiles/cmTC_25c05.dir/build.make:98: cmTC_25c05] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_25c05/fast] Fehler 2
+
+
+Determining if the function _localtime64_s exists failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_46a59/fast"
+/usr/bin/make -f CMakeFiles/cmTC_46a59.dir/build.make CMakeFiles/cmTC_46a59.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_46a59.dir/CheckFunctionExists.c.o
+/usr/bin/cc -DPACKAGE=test -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -Wall -Wextra -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-sign-compare -Wno-pointer-sign -Wno-missing-field-initializers -Wformat=2 -Wstrict-aliasing=2 -fno-strict-aliasing -Wdisabled-optimization -Wfloat-equal -Wpointer-arith -Wdeclaration-after-statement -Wbad-function-cast -Wcast-align -Wwrite-strings -fexceptions -fimplicit-templates -Wno-clobbered -DCHECK_FUNCTION_EXISTS=_localtime64_s   -o CMakeFiles/cmTC_46a59.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.8/Modules/CheckFunctionExists.c
+cc1: Warnung: Kommandozeilenoption »-fimplicit-templates« ist gültig für C++/ObjC++, aber nicht für C
+Linking C executable cmTC_46a59
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46a59.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -Wall -Wextra -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-sign-compare -Wno-pointer-sign -Wno-missing-field-initializers -Wformat=2 -Wstrict-aliasing=2 -fno-strict-aliasing -Wdisabled-optimization -Wfloat-equal -Wpointer-arith -Wdeclaration-after-statement -Wbad-function-cast -Wcast-align -Wwrite-strings -fexceptions -fimplicit-templates -Wno-clobbered -DCHECK_FUNCTION_EXISTS=_localtime64_s    -rdynamic CMakeFiles/cmTC_46a59.dir/CheckFunctionExists.c.o  -o cmTC_46a59 
+CMakeFiles/cmTC_46a59.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_localtime64_s'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make[1]: *** [CMakeFiles/cmTC_46a59.dir/build.make:98: cmTC_46a59] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_46a59/fast] Fehler 2
+
+
+Determining if the function _stricmp exists failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5c345/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5c345.dir/build.make CMakeFiles/cmTC_5c345.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_5c345.dir/CheckFunctionExists.c.o
+/usr/bin/cc -DPACKAGE=test -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -Wall -Wextra -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-sign-compare -Wno-pointer-sign -Wno-missing-field-initializers -Wformat=2 -Wstrict-aliasing=2 -fno-strict-aliasing -Wdisabled-optimization -Wfloat-equal -Wpointer-arith -Wdeclaration-after-statement -Wbad-function-cast -Wcast-align -Wwrite-strings -fexceptions -fimplicit-templates -Wno-clobbered -DCHECK_FUNCTION_EXISTS=_stricmp   -o CMakeFiles/cmTC_5c345.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.8/Modules/CheckFunctionExists.c
+cc1: Warnung: Kommandozeilenoption »-fimplicit-templates« ist gültig für C++/ObjC++, aber nicht für C
+Linking C executable cmTC_5c345
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c345.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -Wall -Wextra -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-sign-compare -Wno-pointer-sign -Wno-missing-field-initializers -Wformat=2 -Wstrict-aliasing=2 -fno-strict-aliasing -Wdisabled-optimization -Wfloat-equal -Wpointer-arith -Wdeclaration-after-statement -Wbad-function-cast -Wcast-align -Wwrite-strings -fexceptions -fimplicit-templates -Wno-clobbered -DCHECK_FUNCTION_EXISTS=_stricmp    -rdynamic CMakeFiles/cmTC_5c345.dir/CheckFunctionExists.c.o  -o cmTC_5c345 
+CMakeFiles/cmTC_5c345.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_stricmp'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make[1]: *** [CMakeFiles/cmTC_5c345.dir/build.make:98: cmTC_5c345] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_5c345/fast] Fehler 2
+
+
+Determining if the function _strnicmp exists failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b8bfb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b8bfb.dir/build.make CMakeFiles/cmTC_b8bfb.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_b8bfb.dir/CheckFunctionExists.c.o
+/usr/bin/cc -DPACKAGE=test -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -Wall -Wextra -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-sign-compare -Wno-pointer-sign -Wno-missing-field-initializers -Wformat=2 -Wstrict-aliasing=2 -fno-strict-aliasing -Wdisabled-optimization -Wfloat-equal -Wpointer-arith -Wdeclaration-after-statement -Wbad-function-cast -Wcast-align -Wwrite-strings -fexceptions -fimplicit-templates -Wno-clobbered -DCHECK_FUNCTION_EXISTS=_strnicmp   -o CMakeFiles/cmTC_b8bfb.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.8/Modules/CheckFunctionExists.c
+cc1: Warnung: Kommandozeilenoption »-fimplicit-templates« ist gültig für C++/ObjC++, aber nicht für C
+Linking C executable cmTC_b8bfb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8bfb.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -Wall -Wextra -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-sign-compare -Wno-pointer-sign -Wno-missing-field-initializers -Wformat=2 -Wstrict-aliasing=2 -fno-strict-aliasing -Wdisabled-optimization -Wfloat-equal -Wpointer-arith -Wdeclaration-after-statement -Wbad-function-cast -Wcast-align -Wwrite-strings -fexceptions -fimplicit-templates -Wno-clobbered -DCHECK_FUNCTION_EXISTS=_strnicmp    -rdynamic CMakeFiles/cmTC_b8bfb.dir/CheckFunctionExists.c.o  -o cmTC_b8bfb 
+CMakeFiles/cmTC_b8bfb.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_strnicmp'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make[1]: *** [CMakeFiles/cmTC_b8bfb.dir/build.make:98: cmTC_b8bfb] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_b8bfb/fast] Fehler 2
+
+
+Determining if the function _strtoui64 exists failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_22d9d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_22d9d.dir/build.make CMakeFiles/cmTC_22d9d.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_22d9d.dir/CheckFunctionExists.c.o
+/usr/bin/cc -DPACKAGE=test -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -Wall -Wextra -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-sign-compare -Wno-pointer-sign -Wno-missing-field-initializers -Wformat=2 -Wstrict-aliasing=2 -fno-strict-aliasing -Wdisabled-optimization -Wfloat-equal -Wpointer-arith -Wdeclaration-after-statement -Wbad-function-cast -Wcast-align -Wwrite-strings -fexceptions -fimplicit-templates -Wno-clobbered -DCHECK_FUNCTION_EXISTS=_strtoui64   -o CMakeFiles/cmTC_22d9d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.8/Modules/CheckFunctionExists.c
+cc1: Warnung: Kommandozeilenoption »-fimplicit-templates« ist gültig für C++/ObjC++, aber nicht für C
+Linking C executable cmTC_22d9d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22d9d.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -Wall -Wextra -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-sign-compare -Wno-pointer-sign -Wno-missing-field-initializers -Wformat=2 -Wstrict-aliasing=2 -fno-strict-aliasing -Wdisabled-optimization -Wfloat-equal -Wpointer-arith -Wdeclaration-after-statement -Wbad-function-cast -Wcast-align -Wwrite-strings -fexceptions -fimplicit-templates -Wno-clobbered -DCHECK_FUNCTION_EXISTS=_strtoui64    -rdynamic CMakeFiles/cmTC_22d9d.dir/CheckFunctionExists.c.o  -o cmTC_22d9d 
+CMakeFiles/cmTC_22d9d.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_strtoui64'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make[1]: *** [CMakeFiles/cmTC_22d9d.dir/build.make:98: cmTC_22d9d] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_22d9d/fast] Fehler 2
+
+
+Determining if the function backtrace exists in the execinfo failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_abd35/fast"
+/usr/bin/make -f CMakeFiles/cmTC_abd35.dir/build.make CMakeFiles/cmTC_abd35.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_abd35.dir/CheckFunctionExists.c.o
+/usr/bin/cc -DPACKAGE=test -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -Wall -Wextra -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-sign-compare -Wno-pointer-sign -Wno-missing-field-initializers -Wformat=2 -Wstrict-aliasing=2 -fno-strict-aliasing -Wdisabled-optimization -Wfloat-equal -Wpointer-arith -Wdeclaration-after-statement -Wbad-function-cast -Wcast-align -Wwrite-strings -fexceptions -fimplicit-templates -Wno-clobbered -DCHECK_FUNCTION_EXISTS=backtrace   -o CMakeFiles/cmTC_abd35.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.8/Modules/CheckFunctionExists.c
+cc1: Warnung: Kommandozeilenoption »-fimplicit-templates« ist gültig für C++/ObjC++, aber nicht für C
+Linking C executable cmTC_abd35
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_abd35.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -Wall -Wextra -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-sign-compare -Wno-pointer-sign -Wno-missing-field-initializers -Wformat=2 -Wstrict-aliasing=2 -fno-strict-aliasing -Wdisabled-optimization -Wfloat-equal -Wpointer-arith -Wdeclaration-after-statement -Wbad-function-cast -Wcast-align -Wwrite-strings -fexceptions -fimplicit-templates -Wno-clobbered -DCHECK_FUNCTION_EXISTS=backtrace    -rdynamic CMakeFiles/cmTC_abd35.dir/CheckFunctionExists.c.o  -o cmTC_abd35 -lexecinfo 
+/usr/bin/ld: cannot find -lexecinfo
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make[1]: *** [CMakeFiles/cmTC_abd35.dir/build.make:98: cmTC_abd35] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_abd35/fast] Fehler 2
+
+
+Determining if the function pthread_mutexattr_setpshared exists failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4fbd5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4fbd5.dir/build.make CMakeFiles/cmTC_4fbd5.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_4fbd5.dir/CheckFunctionExists.c.o
+/usr/bin/cc -DPACKAGE=test -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -Wall -Wextra -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-sign-compare -Wno-pointer-sign -Wno-missing-field-initializers -Wformat=2 -Wstrict-aliasing=2 -fno-strict-aliasing -Wdisabled-optimization -Wfloat-equal -Wpointer-arith -Wdeclaration-after-statement -Wbad-function-cast -Wcast-align -Wwrite-strings -fexceptions -fimplicit-templates -Wno-clobbered -DCHECK_FUNCTION_EXISTS=pthread_mutexattr_setpshared   -o CMakeFiles/cmTC_4fbd5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.8/Modules/CheckFunctionExists.c
+cc1: Warnung: Kommandozeilenoption »-fimplicit-templates« ist gültig für C++/ObjC++, aber nicht für C
+Linking C executable cmTC_4fbd5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4fbd5.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -Wall -Wextra -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-sign-compare -Wno-pointer-sign -Wno-missing-field-initializers -Wformat=2 -Wstrict-aliasing=2 -fno-strict-aliasing -Wdisabled-optimization -Wfloat-equal -Wpointer-arith -Wdeclaration-after-statement -Wbad-function-cast -Wcast-align -Wwrite-strings -fexceptions -fimplicit-templates -Wno-clobbered -DCHECK_FUNCTION_EXISTS=pthread_mutexattr_setpshared    -rdynamic CMakeFiles/cmTC_4fbd5.dir/CheckFunctionExists.c.o  -o cmTC_4fbd5 
+CMakeFiles/cmTC_4fbd5.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `pthread_mutexattr_setpshared'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make[1]: *** [CMakeFiles/cmTC_4fbd5.dir/build.make:98: cmTC_4fbd5] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_4fbd5/fast] Fehler 2
+
+
+Determining if the function pthread_condattr_setpshared exists failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1fa0d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1fa0d.dir/build.make CMakeFiles/cmTC_1fa0d.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_1fa0d.dir/CheckFunctionExists.c.o
+/usr/bin/cc -DPACKAGE=test -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -Wall -Wextra -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-sign-compare -Wno-pointer-sign -Wno-missing-field-initializers -Wformat=2 -Wstrict-aliasing=2 -fno-strict-aliasing -Wdisabled-optimization -Wfloat-equal -Wpointer-arith -Wdeclaration-after-statement -Wbad-function-cast -Wcast-align -Wwrite-strings -fexceptions -fimplicit-templates -Wno-clobbered -DCHECK_FUNCTION_EXISTS=pthread_condattr_setpshared   -o CMakeFiles/cmTC_1fa0d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.8/Modules/CheckFunctionExists.c
+cc1: Warnung: Kommandozeilenoption »-fimplicit-templates« ist gültig für C++/ObjC++, aber nicht für C
+Linking C executable cmTC_1fa0d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1fa0d.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -Wall -Wextra -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-sign-compare -Wno-pointer-sign -Wno-missing-field-initializers -Wformat=2 -Wstrict-aliasing=2 -fno-strict-aliasing -Wdisabled-optimization -Wfloat-equal -Wpointer-arith -Wdeclaration-after-statement -Wbad-function-cast -Wcast-align -Wwrite-strings -fexceptions -fimplicit-templates -Wno-clobbered -DCHECK_FUNCTION_EXISTS=pthread_condattr_setpshared    -rdynamic CMakeFiles/cmTC_1fa0d.dir/CheckFunctionExists.c.o  -o cmTC_1fa0d 
+CMakeFiles/cmTC_1fa0d.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `pthread_condattr_setpshared'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make[1]: *** [CMakeFiles/cmTC_1fa0d.dir/build.make:98: cmTC_1fa0d] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_1fa0d/fast] Fehler 2
+
+
+Determining if the function msgpack_version exists in the msgpack failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9585a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9585a.dir/build.make CMakeFiles/cmTC_9585a.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_9585a.dir/CheckFunctionExists.c.o
+/usr/bin/cc -DPACKAGE=test -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -Wall -Wextra -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-sign-compare -Wno-pointer-sign -Wno-missing-field-initializers -Wformat=2 -Wstrict-aliasing=2 -fno-strict-aliasing -Wdisabled-optimization -Wfloat-equal -Wpointer-arith -Wdeclaration-after-statement -Wbad-function-cast -Wcast-align -Wwrite-strings -fexceptions -fimplicit-templates -Wno-clobbered -DCHECK_FUNCTION_EXISTS=msgpack_version   -o CMakeFiles/cmTC_9585a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.8/Modules/CheckFunctionExists.c
+cc1: Warnung: Kommandozeilenoption »-fimplicit-templates« ist gültig für C++/ObjC++, aber nicht für C
+Linking C executable cmTC_9585a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9585a.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -Wall -Wextra -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-sign-compare -Wno-pointer-sign -Wno-missing-field-initializers -Wformat=2 -Wstrict-aliasing=2 -fno-strict-aliasing -Wdisabled-optimization -Wfloat-equal -Wpointer-arith -Wdeclaration-after-statement -Wbad-function-cast -Wcast-align -Wwrite-strings -fexceptions -fimplicit-templates -Wno-clobbered -DCHECK_FUNCTION_EXISTS=msgpack_version    -rdynamic CMakeFiles/cmTC_9585a.dir/CheckFunctionExists.c.o  -o cmTC_9585a -lmsgpack 
+/usr/bin/ld: cannot find -lmsgpack
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make[1]: *** [CMakeFiles/cmTC_9585a.dir/build.make:98: cmTC_9585a] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_9585a/fast] Fehler 2
+
+
+Determining if files bits/functexcept.h exist failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8fc01/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8fc01.dir/build.make CMakeFiles/cmTC_8fc01.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_8fc01.dir/CheckIncludeFiles.c.o
+/usr/bin/cc -DPACKAGE=test -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -std=c++11 -Wno-missing-field-initializers    -o CMakeFiles/cmTC_8fc01.dir/CheckIncludeFiles.c.o   -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+cc1: Warnung: Kommandozeilenoption »-std=c++11« ist gültig für C++/ObjC++, aber nicht für C
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: schwerwiegender Fehler: bits/functexcept.h: Datei oder Verzeichnis nicht gefunden
+ #include <bits/functexcept.h>
+          ^~~~~~~~~~~~~~~~~~~~
+Kompilierung beendet.
+make[1]: *** [CMakeFiles/cmTC_8fc01.dir/build.make:66: CMakeFiles/cmTC_8fc01.dir/CheckIncludeFiles.c.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_8fc01/fast] Fehler 2
+
+Source:
+/* */
+#include <bits/functexcept.h>
+
+
+int main(void){return 0;}
+
+Determining if files libkern/OSAtomic.h exist failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_49c75/fast"
+/usr/bin/make -f CMakeFiles/cmTC_49c75.dir/build.make CMakeFiles/cmTC_49c75.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_49c75.dir/CheckIncludeFiles.c.o
+/usr/bin/cc -DPACKAGE=test -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -std=c++11 -Wno-missing-field-initializers    -o CMakeFiles/cmTC_49c75.dir/CheckIncludeFiles.c.o   -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+cc1: Warnung: Kommandozeilenoption »-std=c++11« ist gültig für C++/ObjC++, aber nicht für C
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: schwerwiegender Fehler: libkern/OSAtomic.h: Datei oder Verzeichnis nicht gefunden
+ #include <libkern/OSAtomic.h>
+          ^~~~~~~~~~~~~~~~~~~~
+Kompilierung beendet.
+make[1]: *** [CMakeFiles/cmTC_49c75.dir/build.make:66: CMakeFiles/cmTC_49c75.dir/CheckIncludeFiles.c.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_49c75/fast] Fehler 2
+
+Source:
+/* */
+#include <libkern/OSAtomic.h>
+
+
+int main(void){return 0;}
+
+Determining if files libkern/OSByteOrder.h exist failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_555cd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_555cd.dir/build.make CMakeFiles/cmTC_555cd.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_555cd.dir/CheckIncludeFiles.c.o
+/usr/bin/cc -DPACKAGE=test -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -std=c++11 -Wno-missing-field-initializers    -o CMakeFiles/cmTC_555cd.dir/CheckIncludeFiles.c.o   -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+cc1: Warnung: Kommandozeilenoption »-std=c++11« ist gültig für C++/ObjC++, aber nicht für C
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: schwerwiegender Fehler: libkern/OSByteOrder.h: Datei oder Verzeichnis nicht gefunden
+ #include <libkern/OSByteOrder.h>
+          ^~~~~~~~~~~~~~~~~~~~~~~
+Kompilierung beendet.
+make[1]: *** [CMakeFiles/cmTC_555cd.dir/build.make:66: CMakeFiles/cmTC_555cd.dir/CheckIncludeFiles.c.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_555cd/fast] Fehler 2
+
+Source:
+/* */
+#include <libkern/OSByteOrder.h>
+
+
+int main(void){return 0;}
+
+Determining if files machine/endian.h exist failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fb440/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fb440.dir/build.make CMakeFiles/cmTC_fb440.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_fb440.dir/CheckIncludeFiles.c.o
+/usr/bin/cc -DPACKAGE=test -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -std=c++11 -Wno-missing-field-initializers    -o CMakeFiles/cmTC_fb440.dir/CheckIncludeFiles.c.o   -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+cc1: Warnung: Kommandozeilenoption »-std=c++11« ist gültig für C++/ObjC++, aber nicht für C
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: schwerwiegender Fehler: machine/endian.h: Datei oder Verzeichnis nicht gefunden
+ #include <machine/endian.h>
+          ^~~~~~~~~~~~~~~~~~
+Kompilierung beendet.
+make[1]: *** [CMakeFiles/cmTC_fb440.dir/build.make:66: CMakeFiles/cmTC_fb440.dir/CheckIncludeFiles.c.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_fb440/fast] Fehler 2
+
+Source:
+/* */
+#include <machine/endian.h>
+
+
+int main(void){return 0;}
+
+Determining if files malloc/malloc.h exist failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ed2a0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ed2a0.dir/build.make CMakeFiles/cmTC_ed2a0.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_ed2a0.dir/CheckIncludeFiles.c.o
+/usr/bin/cc -DPACKAGE=test -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -std=c++11 -Wno-missing-field-initializers    -o CMakeFiles/cmTC_ed2a0.dir/CheckIncludeFiles.c.o   -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+cc1: Warnung: Kommandozeilenoption »-std=c++11« ist gültig für C++/ObjC++, aber nicht für C
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: schwerwiegender Fehler: malloc/malloc.h: Datei oder Verzeichnis nicht gefunden
+ #include <malloc/malloc.h>
+          ^~~~~~~~~~~~~~~~~
+Kompilierung beendet.
+make[1]: *** [CMakeFiles/cmTC_ed2a0.dir/build.make:66: CMakeFiles/cmTC_ed2a0.dir/CheckIncludeFiles.c.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_ed2a0/fast] Fehler 2
+
+Source:
+/* */
+#include <malloc/malloc.h>
+
+
+int main(void){return 0;}
+
+Determining if files malloc_np.h exist failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_144a3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_144a3.dir/build.make CMakeFiles/cmTC_144a3.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_144a3.dir/CheckIncludeFiles.c.o
+/usr/bin/cc -DPACKAGE=test -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -std=c++11 -Wno-missing-field-initializers    -o CMakeFiles/cmTC_144a3.dir/CheckIncludeFiles.c.o   -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+cc1: Warnung: Kommandozeilenoption »-std=c++11« ist gültig für C++/ObjC++, aber nicht für C
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: schwerwiegender Fehler: malloc_np.h: Datei oder Verzeichnis nicht gefunden
+ #include <malloc_np.h>
+          ^~~~~~~~~~~~~
+Kompilierung beendet.
+make[1]: *** [CMakeFiles/cmTC_144a3.dir/build.make:66: CMakeFiles/cmTC_144a3.dir/CheckIncludeFiles.c.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_144a3/fast] Fehler 2
+
+Source:
+/* */
+#include <malloc_np.h>
+
+
+int main(void){return 0;}
+
+Determining if files pthread_np.h exist failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3a0e3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3a0e3.dir/build.make CMakeFiles/cmTC_3a0e3.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_3a0e3.dir/CheckIncludeFiles.c.o
+/usr/bin/cc -DPACKAGE=test -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -std=c++11 -Wno-missing-field-initializers    -o CMakeFiles/cmTC_3a0e3.dir/CheckIncludeFiles.c.o   -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+cc1: Warnung: Kommandozeilenoption »-std=c++11« ist gültig für C++/ObjC++, aber nicht für C
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: schwerwiegender Fehler: pthread_np.h: Datei oder Verzeichnis nicht gefunden
+ #include <pthread_np.h>
+          ^~~~~~~~~~~~~~
+Kompilierung beendet.
+make[1]: *** [CMakeFiles/cmTC_3a0e3.dir/build.make:66: CMakeFiles/cmTC_3a0e3.dir/CheckIncludeFiles.c.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_3a0e3/fast] Fehler 2
+
+Source:
+/* */
+#include <pthread_np.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/endian.h exist failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7bfd5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7bfd5.dir/build.make CMakeFiles/cmTC_7bfd5.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_7bfd5.dir/CheckIncludeFiles.c.o
+/usr/bin/cc -DPACKAGE=test -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -std=c++11 -Wno-missing-field-initializers    -o CMakeFiles/cmTC_7bfd5.dir/CheckIncludeFiles.c.o   -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+cc1: Warnung: Kommandozeilenoption »-std=c++11« ist gültig für C++/ObjC++, aber nicht für C
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: schwerwiegender Fehler: sys/endian.h: Datei oder Verzeichnis nicht gefunden
+ #include <sys/endian.h>
+          ^~~~~~~~~~~~~~
+Kompilierung beendet.
+make[1]: *** [CMakeFiles/cmTC_7bfd5.dir/build.make:66: CMakeFiles/cmTC_7bfd5.dir/CheckIncludeFiles.c.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_7bfd5/fast] Fehler 2
+
+Source:
+/* */
+#include <sys/endian.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/syslimits.h exist failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_47483/fast"
+/usr/bin/make -f CMakeFiles/cmTC_47483.dir/build.make CMakeFiles/cmTC_47483.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_47483.dir/CheckIncludeFiles.c.o
+/usr/bin/cc -DPACKAGE=test -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -std=c++11 -Wno-missing-field-initializers    -o CMakeFiles/cmTC_47483.dir/CheckIncludeFiles.c.o   -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+cc1: Warnung: Kommandozeilenoption »-std=c++11« ist gültig für C++/ObjC++, aber nicht für C
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: schwerwiegender Fehler: sys/syslimits.h: Datei oder Verzeichnis nicht gefunden
+ #include <sys/syslimits.h>
+          ^~~~~~~~~~~~~~~~~
+Kompilierung beendet.
+make[1]: *** [CMakeFiles/cmTC_47483.dir/build.make:66: CMakeFiles/cmTC_47483.dir/CheckIncludeFiles.c.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_47483/fast] Fehler 2
+
+Source:
+/* */
+#include <sys/syslimits.h>
+
+
+int main(void){return 0;}
+
+Determining if the F_NOCACHE exist failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e9c6b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e9c6b.dir/build.make CMakeFiles/cmTC_e9c6b.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_e9c6b.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -std=c++11 -Wno-missing-field-initializers    -o CMakeFiles/cmTC_e9c6b.dir/CheckSymbolExists.c.o   -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+cc1: Warnung: Kommandozeilenoption »-std=c++11« ist gültig für C++/ObjC++, aber nicht für C
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In Funktion »main«:
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: Fehler: »F_NOCACHE« nicht deklariert (erste Verwendung in dieser Funktion)
+   return ((int*)(&F_NOCACHE))[argc];
+                   ^~~~~~~~~
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: Anmerkung: jeder nicht deklarierte Bezeichner wird nur einmal für jede Funktion, in der er vorkommt, gemeldet
+make[1]: *** [CMakeFiles/cmTC_e9c6b.dir/build.make:66: CMakeFiles/cmTC_e9c6b.dir/CheckSymbolExists.c.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_e9c6b/fast] Fehler 2
+
+File /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef F_NOCACHE
+  return ((int*)(&F_NOCACHE))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function malloc_size exists failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4afc0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4afc0.dir/build.make CMakeFiles/cmTC_4afc0.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_4afc0.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -std=c++11 -Wno-missing-field-initializers -DCHECK_FUNCTION_EXISTS=malloc_size   -o CMakeFiles/cmTC_4afc0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.8/Modules/CheckFunctionExists.c
+cc1: Warnung: Kommandozeilenoption »-std=c++11« ist gültig für C++/ObjC++, aber nicht für C
+Linking C executable cmTC_4afc0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4afc0.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -std=c++11 -Wno-missing-field-initializers -DCHECK_FUNCTION_EXISTS=malloc_size    -rdynamic CMakeFiles/cmTC_4afc0.dir/CheckFunctionExists.c.o  -o cmTC_4afc0 
+CMakeFiles/cmTC_4afc0.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `malloc_size'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make[1]: *** [CMakeFiles/cmTC_4afc0.dir/build.make:98: cmTC_4afc0] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_4afc0/fast] Fehler 2
+
+
+Determining if the function dlsym exists failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_af6bf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_af6bf.dir/build.make CMakeFiles/cmTC_af6bf.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_af6bf.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -std=c++11 -Wno-missing-field-initializers -DCHECK_FUNCTION_EXISTS=dlsym   -o CMakeFiles/cmTC_af6bf.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.8/Modules/CheckFunctionExists.c
+cc1: Warnung: Kommandozeilenoption »-std=c++11« ist gültig für C++/ObjC++, aber nicht für C
+Linking C executable cmTC_af6bf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af6bf.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -std=c++11 -Wno-missing-field-initializers -DCHECK_FUNCTION_EXISTS=dlsym    -rdynamic CMakeFiles/cmTC_af6bf.dir/CheckFunctionExists.c.o  -o cmTC_af6bf 
+CMakeFiles/cmTC_af6bf.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `dlsym'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make[1]: *** [CMakeFiles/cmTC_af6bf.dir/build.make:98: cmTC_af6bf] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_af6bf/fast] Fehler 2
+
+
+Determining if the function pthread_threadid_np exists failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_caae6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_caae6.dir/build.make CMakeFiles/cmTC_caae6.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_caae6.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -std=c++11 -Wno-missing-field-initializers -DCHECK_FUNCTION_EXISTS=pthread_threadid_np   -o CMakeFiles/cmTC_caae6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.8/Modules/CheckFunctionExists.c
+cc1: Warnung: Kommandozeilenoption »-std=c++11« ist gültig für C++/ObjC++, aber nicht für C
+Linking C executable cmTC_caae6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_caae6.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -std=c++11 -Wno-missing-field-initializers -DCHECK_FUNCTION_EXISTS=pthread_threadid_np    -rdynamic CMakeFiles/cmTC_caae6.dir/CheckFunctionExists.c.o  -o cmTC_caae6 -lpthread 
+CMakeFiles/cmTC_caae6.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `pthread_threadid_np'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make[1]: *** [CMakeFiles/cmTC_caae6.dir/build.make:98: cmTC_caae6] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_caae6/fast] Fehler 2
+
+
+Determining if the function pthread_getthreadid_np exists failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_48734/fast"
+/usr/bin/make -f CMakeFiles/cmTC_48734.dir/build.make CMakeFiles/cmTC_48734.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_48734.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -std=c++11 -Wno-missing-field-initializers -DCHECK_FUNCTION_EXISTS=pthread_getthreadid_np   -o CMakeFiles/cmTC_48734.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.8/Modules/CheckFunctionExists.c
+cc1: Warnung: Kommandozeilenoption »-std=c++11« ist gültig für C++/ObjC++, aber nicht für C
+Linking C executable cmTC_48734
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48734.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -std=c++11 -Wno-missing-field-initializers -DCHECK_FUNCTION_EXISTS=pthread_getthreadid_np    -rdynamic CMakeFiles/cmTC_48734.dir/CheckFunctionExists.c.o  -o cmTC_48734 -lpthread 
+CMakeFiles/cmTC_48734.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `pthread_getthreadid_np'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make[1]: *** [CMakeFiles/cmTC_48734.dir/build.make:98: cmTC_48734] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_48734/fast] Fehler 2
+
+
+Determining if the prototype pthread_yield exists for PTHREAD_YIELD_RETURNS_VOID failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_08b0b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_08b0b.dir/build.make CMakeFiles/cmTC_08b0b.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_08b0b.dir/CheckPrototypeDefinition.c.o
+/usr/bin/cc -D_GNU_SOURCE  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -std=c++11 -Wno-missing-field-initializers    -o CMakeFiles/cmTC_08b0b.dir/CheckPrototypeDefinition.c.o   -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckPrototypeDefinition.c
+cc1: Warnung: Kommandozeilenoption »-std=c++11« ist gültig für C++/ObjC++, aber nicht für C
+/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckPrototypeDefinition.c:14:6: Fehler: In Konflikt stehende Typen für »pthread_yield«
+ void pthread_yield(void) {
+      ^~~~~~~~~~~~~
+In file included from /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/CheckPrototypeDefinition.c:1:0:
+/usr/include/pthread.h:470:12: Anmerkung: Vorherige Deklaration von »pthread_yield« war hier
+ extern int pthread_yield (void) __THROW;
+            ^~~~~~~~~~~~~
+make[1]: *** [CMakeFiles/cmTC_08b0b.dir/build.make:66: CMakeFiles/cmTC_08b0b.dir/CheckPrototypeDefinition.c.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_08b0b/fast] Fehler 2
+
+
+#include <pthread.h>
+
+
+static void cmakeRequireSymbol(int dummy, ...) {
+  (void) dummy;
+}
+
+static void checkSymbol(void) {
+#ifndef pthread_yield
+  cmakeRequireSymbol(0, &pthread_yield);
+#endif
+}
+
+void pthread_yield(void) {
+  return (void)0;
+}
+
+#ifdef __CLASSIC_C__
+int main() {
+  int ac;
+  char*av[];
+#else
+int main(int ac, char *av[]) {
+#endif
+  checkSymbol();
+  if (ac > 1000) {
+    return *av[0];
+  }
+  return 0;
+}
+
+
+Performing C SOURCE FILE Test have_C__Wno_error_address_of_array_temporary failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_960b9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_960b9.dir/build.make CMakeFiles/cmTC_960b9.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_960b9.dir/src.c.o
+/usr/bin/cc -D_GNU_SOURCE  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -std=c++11 -Wno-missing-field-initializers -Wno-missing-field-initializers -Wstrict-null-sentinel -Winit-self -Wswitch -Wtrampolines -Wlogical-op -Wmissing-format-attribute -Wno-error=missing-format-attribute -Dhave_C__Wno_error_address_of_array_temporary  -Wno-error=address-of-array-temporary   -o CMakeFiles/cmTC_960b9.dir/src.c.o   -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/src.c
+cc1: Warnung: Kommandozeilenoption »-Wstrict-null-sentinel« ist gültig für C++/ObjC++, aber nicht für C
+cc1: Fehler: -Werror=address-of-array-temporary: Keine Option -Waddress-of-array-temporary
+cc1: Warnung: Kommandozeilenoption »-std=c++11« ist gültig für C++/ObjC++, aber nicht für C
+make[1]: *** [CMakeFiles/cmTC_960b9.dir/build.make:66: CMakeFiles/cmTC_960b9.dir/src.c.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_960b9/fast] Fehler 2
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test have_CXX__Wno_error_address_of_array_temporary failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1a1ff/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1a1ff.dir/build.make CMakeFiles/cmTC_1a1ff.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building CXX object CMakeFiles/cmTC_1a1ff.dir/src.cxx.o
+/usr/bin/c++  -D_GNU_SOURCE  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -fno-rtti -std=c++11 -Wno-missing-field-initializers -Wno-missing-field-initializers -Wstrict-null-sentinel -Winit-self -Wswitch -Wtrampolines -Wlogical-op -Wmissing-format-attribute -Wno-error=missing-format-attribute -Dhave_CXX__Wno_error_address_of_array_temporary  -Wno-error=address-of-array-temporary   -o CMakeFiles/cmTC_1a1ff.dir/src.cxx.o -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: Fehler: -Werror=address-of-array-temporary: Keine Option -Waddress-of-array-temporary
+make[1]: *** [CMakeFiles/cmTC_1a1ff.dir/build.make:66: CMakeFiles/cmTC_1a1ff.dir/src.cxx.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_1a1ff/fast] Fehler 2
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test have_C__Wno_error_tautological_constant_out_of_range_compare failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_084c4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_084c4.dir/build.make CMakeFiles/cmTC_084c4.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_084c4.dir/src.c.o
+/usr/bin/cc -D_GNU_SOURCE  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -std=c++11 -Wno-missing-field-initializers -Wno-missing-field-initializers -Wstrict-null-sentinel -Winit-self -Wswitch -Wtrampolines -Wlogical-op -Wmissing-format-attribute -Wno-error=missing-format-attribute -Dhave_C__Wno_error_tautological_constant_out_of_range_compare  -Wno-error=tautological-constant-out-of-range-compare   -o CMakeFiles/cmTC_084c4.dir/src.c.o   -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/src.c
+cc1: Warnung: Kommandozeilenoption »-Wstrict-null-sentinel« ist gültig für C++/ObjC++, aber nicht für C
+cc1: Fehler: -Werror=tautological-constant-out-of-range-compare: Keine Option -Wtautological-constant-out-of-range-compare
+cc1: Warnung: Kommandozeilenoption »-std=c++11« ist gültig für C++/ObjC++, aber nicht für C
+make[1]: *** [CMakeFiles/cmTC_084c4.dir/build.make:66: CMakeFiles/cmTC_084c4.dir/src.c.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_084c4/fast] Fehler 2
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test have_CXX__Wno_error_tautological_constant_out_of_range_compare failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0c051/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0c051.dir/build.make CMakeFiles/cmTC_0c051.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building CXX object CMakeFiles/cmTC_0c051.dir/src.cxx.o
+/usr/bin/c++  -D_GNU_SOURCE  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -fno-rtti -std=c++11 -Wno-missing-field-initializers -Wno-missing-field-initializers -Wstrict-null-sentinel -Winit-self -Wswitch -Wtrampolines -Wlogical-op -Wmissing-format-attribute -Wno-error=missing-format-attribute -Dhave_CXX__Wno_error_tautological_constant_out_of_range_compare  -Wno-error=tautological-constant-out-of-range-compare   -o CMakeFiles/cmTC_0c051.dir/src.cxx.o -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: Fehler: -Werror=tautological-constant-out-of-range-compare: Keine Option -Wtautological-constant-out-of-range-compare
+make[1]: *** [CMakeFiles/cmTC_0c051.dir/build.make:66: CMakeFiles/cmTC_0c051.dir/src.cxx.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_0c051/fast] Fehler 2
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test have_C__Wno_error_extern_c_compat failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ed902/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ed902.dir/build.make CMakeFiles/cmTC_ed902.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_ed902.dir/src.c.o
+/usr/bin/cc -D_GNU_SOURCE  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -std=c++11 -Wno-missing-field-initializers -Wno-missing-field-initializers -Wstrict-null-sentinel -Winit-self -Wswitch -Wtrampolines -Wlogical-op -Wmissing-format-attribute -Wno-error=missing-format-attribute -Wno-error=maybe-uninitialized -Dhave_C__Wno_error_extern_c_compat  -Wno-error=extern-c-compat   -o CMakeFiles/cmTC_ed902.dir/src.c.o   -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/src.c
+cc1: Warnung: Kommandozeilenoption »-Wstrict-null-sentinel« ist gültig für C++/ObjC++, aber nicht für C
+cc1: Fehler: -Werror=extern-c-compat: Keine Option -Wextern-c-compat
+cc1: Warnung: Kommandozeilenoption »-std=c++11« ist gültig für C++/ObjC++, aber nicht für C
+make[1]: *** [CMakeFiles/cmTC_ed902.dir/build.make:66: CMakeFiles/cmTC_ed902.dir/src.c.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_ed902/fast] Fehler 2
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test have_CXX__Wno_error_extern_c_compat failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bbe78/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bbe78.dir/build.make CMakeFiles/cmTC_bbe78.dir/build
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird betreten
+Building CXX object CMakeFiles/cmTC_bbe78.dir/src.cxx.o
+/usr/bin/c++  -D_GNU_SOURCE  -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -fno-rtti -std=c++11 -Wno-missing-field-initializers -Wno-missing-field-initializers -Wstrict-null-sentinel -Winit-self -Wswitch -Wtrampolines -Wlogical-op -Wmissing-format-attribute -Wno-error=missing-format-attribute -Wno-error=maybe-uninitialized -Dhave_CXX__Wno_error_extern_c_compat  -Wno-error=extern-c-compat   -o CMakeFiles/cmTC_bbe78.dir/src.cxx.o -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: Fehler: -Werror=extern-c-compat: Keine Option -Wextern-c-compat
+make[1]: *** [CMakeFiles/cmTC_bbe78.dir/build.make:66: CMakeFiles/cmTC_bbe78.dir/src.cxx.o] Fehler 1
+make[1]: Verzeichnis „/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:126: cmTC_bbe78/fast] Fehler 2
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test HAVE_STDCXX11 failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_95d08/fast"
+/usr/bin/make -f CMakeFiles/cmTC_95d08.dir/build.make CMakeFiles/cmTC_95d08.dir/build
+make[1]: Entering directory '/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_95d08.dir/src.cxx.o
+/usr/bin/c++    -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -fno-rtti -std=c++11 -Wno-missing-field-initializers -Wno-missing-field-initializers -Wstrict-null-sentinel -Winit-self -Wswitch -Wtrampolines -Wlogical-op -Wmissing-format-attribute -Wno-error=missing-format-attribute -Wno-error=maybe-uninitialized -fno-rtti -fno-exceptions -Wno-error=nonnull-compare -Wpacked -fno-omit-frame-pointer -Wno-error=strict-overflow -Wextra -Wbad-function-cast -Wno-missing-noreturn -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wpointer-arith -Wmissing-format-attribute -Wshadow -Wcast-align -DHAVE_STDCXX11   -std=c++11 -o CMakeFiles/cmTC_95d08.dir/src.cxx.o -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option '-Wbad-function-cast' is valid for C/ObjC but not for C++
+cc1plus: warning: command line option '-Wstrict-prototypes' is valid for C/ObjC but not for C++
+cc1plus: warning: command line option '-Wmissing-prototypes' is valid for C/ObjC but not for C++
+Linking CXX executable cmTC_95d08
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95d08.dir/link.txt --verbose=1
+/usr/bin/c++   -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -fno-rtti -std=c++11 -Wno-missing-field-initializers -Wno-missing-field-initializers -Wstrict-null-sentinel -Winit-self -Wswitch -Wtrampolines -Wlogical-op -Wmissing-format-attribute -Wno-error=missing-format-attribute -Wno-error=maybe-uninitialized -fno-rtti -fno-exceptions -Wno-error=nonnull-compare -Wpacked -fno-omit-frame-pointer -Wno-error=strict-overflow -Wextra -Wbad-function-cast -Wno-missing-noreturn -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wpointer-arith -Wmissing-format-attribute -Wshadow -Wcast-align -DHAVE_STDCXX11    -rdynamic CMakeFiles/cmTC_95d08.dir/src.cxx.o  -o cmTC_95d08 -lpthread 
+make[1]: Leaving directory '/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_STDCXX0X failed with the following output:
+Change Dir: /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_62421/fast"
+/usr/bin/make -f CMakeFiles/cmTC_62421.dir/build.make CMakeFiles/cmTC_62421.dir/build
+make[1]: Entering directory '/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_62421.dir/src.cxx.o
+/usr/bin/c++    -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -fno-rtti -std=c++11 -Wno-missing-field-initializers -Wno-missing-field-initializers -Wstrict-null-sentinel -Winit-self -Wswitch -Wtrampolines -Wlogical-op -Wmissing-format-attribute -Wno-error=missing-format-attribute -Wno-error=maybe-uninitialized -fno-rtti -fno-exceptions -Wno-error=nonnull-compare -Wpacked -fno-omit-frame-pointer -Wno-error=strict-overflow -Wextra -Wbad-function-cast -Wno-missing-noreturn -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wpointer-arith -Wmissing-format-attribute -Wshadow -Wcast-align -DHAVE_STDCXX0X   -std=c++0x -o CMakeFiles/cmTC_62421.dir/src.cxx.o -c /home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option '-Wbad-function-cast' is valid for C/ObjC but not for C++
+cc1plus: warning: command line option '-Wstrict-prototypes' is valid for C/ObjC but not for C++
+cc1plus: warning: command line option '-Wmissing-prototypes' is valid for C/ObjC but not for C++
+Linking CXX executable cmTC_62421
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62421.dir/link.txt --verbose=1
+/usr/bin/c++   -pie -fPIC -Wl,-z,relro,-z,now -fstack-protector --param=ssp-buffer-size=4 -DWITH_INNODB_DISALLOW_WRITES -fno-rtti -std=c++11 -Wno-missing-field-initializers -Wno-missing-field-initializers -Wstrict-null-sentinel -Winit-self -Wswitch -Wtrampolines -Wlogical-op -Wmissing-format-attribute -Wno-error=missing-format-attribute -Wno-error=maybe-uninitialized -fno-rtti -fno-exceptions -Wno-error=nonnull-compare -Wpacked -fno-omit-frame-pointer -Wno-error=strict-overflow -Wextra -Wbad-function-cast -Wno-missing-noreturn -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wpointer-arith -Wmissing-format-attribute -Wshadow -Wcast-align -DHAVE_STDCXX0X    -rdynamic CMakeFiles/cmTC_62421.dir/src.cxx.o  -o cmTC_62421 -lpthread 
+make[1]: Leaving directory '/home/baschdl/uni/bachelor/mariadb/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }

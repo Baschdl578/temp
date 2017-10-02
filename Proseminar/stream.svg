@@ -1,0 +1,99 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Created using Karbon, part of Calligra: http://www.calligra.org/karbon -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="188.797pt" height="54.1005pt">
+<defs/>
+<g id="001">
+  <path id="shape0" transform="matrix(1 0 0 -1 0.063 33.5706)" fill="#ecf1fa" d="M0 33.504L235.875 33.504L235.875 0L0 0Z"/>
+  <path id="shape1" transform="matrix(0.908421 0 0 -1 0.062681 33.57)" fill="none" stroke="#231f20" stroke-width="0.13429700000" stroke-linecap="round" stroke-linejoin="round" d="M0 33.504L259.65 33.504L259.65 0L0 0Z"/>
+  <text id="shape2" fill="#231f20" font-family="Arial" font-size="5.36072015762pt" x="0.00000000000pt" y="3.70312500000pt" transform="translate(101.462, 3.62648)"><tspan x="0"  y="4.62891">Stream</tspan></text>
+  <text id="shape3" fill="#231f20" font-family="Arial" font-size="5.36072015762pt" x="0.00000000000pt" y="3.65625000000pt" transform="translate(122.761, 3.68508)"><tspan x="0"  y="4.57031">//foo</tspan></text>
+  <path id="shape4" transform="matrix(0.908421 0 0 -1 7.67162 36.082)" fill="none" stroke="#231f20" stroke-width="0.40184100000" stroke-linecap="round" stroke-linejoin="round" d="M0.417 0L0 5.863"/>
+  <path id="shape5" transform="matrix(1 0 0 -1 6.148 41.1096)" fill="#231f20" fill-rule="evenodd" d="M3.426 5.446L1.903 0L0 5.446L3.426 5.446"/>
+  <path id="shape6" transform="matrix(1 0 0 -1 3.105 30.2186)" fill="#ffffff" d="M0 15.074L54.785 15.074L54.785 0L0 0Z"/>
+  <path id="shape7" transform="matrix(0.908421 0 0 -1 3.10589 30.223)" fill="none" stroke="#231f20" stroke-width="0.13429700000" stroke-linecap="round" stroke-linejoin="round" d="M0 15.078L60.308 15.078L60.308 0L0 0Z"/>
+  <text id="shape8" fill="#231f20" font-family="Calibri" font-size="4.46719980240pt" x="0.00000000000pt" y="3.04687500000pt" transform="translate(6.71137, 20.1793)"><tspan x="0"  y="3.80859">Pointer to Extent E1</tspan></text>
+  <path id="shape9" transform="matrix(0.908421 0 0 -1 1.96491 60.375)" fill="#ecf1fa" d="M0 19.266L13.399 19.266L13.399 0L0 0Z"/>
+  <path id="shape10" transform="matrix(0.908421 0 0 -1 1.96491 60.375)" fill="none" stroke="#231f20" stroke-width="0.13429700000" stroke-linecap="round" stroke-linejoin="round" d="M0 19.266L13.399 19.266L13.399 0L0 0Z"/>
+  <text id="shape11" fill="#231f20" font-family="Calibri" font-size="5.36072015762pt" x="0.00000000000pt" y="3.64062500000pt" transform="translate(4.32237, 48.1667)"><tspan x="0"  y="4.55078">B</tspan></text>
+  <text id="shape12" fill="#231f20" font-family="Calibri" font-size="3.48359990120pt" x="0.00000000000pt" y="2.18750000000pt" transform="translate(7.63367, 50.9191)"><tspan x="0"  y="2.73438">11</tspan></text>
+  <path id="shape13" transform="matrix(0.908421 0 0 -1 13.3747 60.375)" fill="#ecf1fa" d="M0 19.266L13.403 19.266L13.403 0L0 0Z"/>
+  <path id="shape14" transform="matrix(0.908421 0 0 -1 13.3747 60.375)" fill="none" stroke="#231f20" stroke-width="0.13429700000" stroke-linecap="round" stroke-linejoin="round" d="M0 19.266L13.403 19.266L13.403 0L0 0Z"/>
+  <text id="shape15" fill="#231f20" font-family="Calibri" font-size="5.36072015762pt" x="0.00000000000pt" y="3.64062500000pt" transform="translate(15.7356, 48.1667)"><tspan x="0"  y="4.55078">B</tspan></text>
+  <text id="shape16" fill="#231f20" font-family="Calibri" font-size="3.48359990120pt" x="0.00000000000pt" y="2.23437500000pt" transform="translate(19.047, 50.8605)"><tspan x="0"  y="2.79297">12</tspan></text>
+  <path id="shape17" transform="matrix(0.908421 0 0 -1 25.1714 60.375)" fill="#ecf1fa" d="M0 19.266L13.399 19.266L13.399 0L0 0Z"/>
+  <path id="shape18" transform="matrix(0.908421 0 0 -1 25.1714 60.375)" fill="none" stroke="#231f20" stroke-width="0.13429700000" stroke-linecap="round" stroke-linejoin="round" d="M0 19.266L13.399 19.266L13.399 0L0 0Z"/>
+  <text id="shape19" fill="#231f20" font-family="Calibri" font-size="5.36072015762pt" x="0.00000000000pt" y="0.62500000000pt" transform="translate(27.7318, 51.9362)"><tspan x="0"  y="0.78125">…..</tspan></text>
+  <path id="shape20" transform="matrix(1 0 0 -1 36.582 60.3756)" fill="#ecf1fa" d="M0 19.266L12.176 19.266L12.176 0L0 0Z"/>
+  <path id="shape21" transform="matrix(0.908421 0 0 -1 36.5857 60.375)" fill="none" stroke="#231f20" stroke-width="0.13429700000" stroke-linecap="round" stroke-linejoin="round" d="M0 19.266L13.399 19.266L13.399 0L0 0Z"/>
+  <text id="shape22" fill="#231f20" font-family="Calibri" font-size="5.36072015762pt" x="0.00000000000pt" y="3.64062500000pt" transform="translate(39.2683, 48.1667)"><tspan x="0"  y="4.55078">B</tspan></text>
+  <text id="shape23" fill="#231f20" font-family="Calibri" font-size="3.48359990120pt" x="0.00000000000pt" y="2.18750000000pt" transform="translate(42.579, 50.9191)"><tspan x="0"  y="2.73438">1x</tspan></text>
+  <path id="shape24" transform="matrix(0.908421 0 0 -1 62.453 36.082)" fill="none" stroke="#231f20" stroke-width="0.40184100000" stroke-linecap="round" stroke-linejoin="round" d="M0.417 0L0 5.863"/>
+  <path id="shape25" transform="matrix(1 0 0 -1 60.934 41.1096)" fill="#231f20" fill-rule="evenodd" d="M3.421 5.446L1.898 0L0 5.446L3.421 5.446"/>
+  <path id="shape26" transform="matrix(1 0 0 -1 57.891 30.2186)" fill="#ffffff" d="M0 15.074L54.781 15.074L54.781 0L0 0Z"/>
+  <path id="shape27" transform="matrix(0.908421 0 0 -1 57.8909 30.223)" fill="none" stroke="#231f20" stroke-width="0.13429700000" stroke-linecap="round" stroke-linejoin="round" d="M0 15.078L60.304 15.078L60.304 0L0 0Z"/>
+  <text id="shape28" fill="#231f20" font-family="Calibri" font-size="4.46719980240pt" x="0.00000000000pt" y="3.04687500000pt" transform="translate(61.4972, 20.4728)"><tspan x="0"  y="3.80859">Pointer to Extent E2</tspan></text>
+  <path id="shape29" transform="matrix(0.908421 0 0 -1 56.7463 60.375)" fill="#ecf1fa" d="M0 19.266L13.403 19.266L13.403 0L0 0Z"/>
+  <path id="shape30" transform="matrix(0.908421 0 0 -1 56.7463 60.375)" fill="none" stroke="#231f20" stroke-width="0.13429700000" stroke-linecap="round" stroke-linejoin="round" d="M0 19.266L13.403 19.266L13.403 0L0 0Z"/>
+  <text id="shape31" fill="#231f20" font-family="Calibri" font-size="5.36072015762pt" x="0.00000000000pt" y="3.64062500000pt" transform="translate(59.106, 48.1667)"><tspan x="0"  y="4.55078">B</tspan></text>
+  <text id="shape32" fill="#231f20" font-family="Calibri" font-size="3.48359990120pt" x="0.00000000000pt" y="2.23437500000pt" transform="translate(62.418, 50.8605)"><tspan x="0"  y="2.79297">21</tspan></text>
+  <path id="shape33" transform="matrix(0.908421 0 0 -1 68.1597 60.375)" fill="#ecf1fa" d="M0 19.266L13.403 19.266L13.403 0L0 0Z"/>
+  <path id="shape34" transform="matrix(0.908421 0 0 -1 68.1597 60.375)" fill="none" stroke="#231f20" stroke-width="0.13429700000" stroke-linecap="round" stroke-linejoin="round" d="M0 19.266L13.403 19.266L13.403 0L0 0Z"/>
+  <text id="shape35" fill="#231f20" font-family="Calibri" font-size="5.36072015762pt" x="0.00000000000pt" y="3.64062500000pt" transform="translate(70.519, 48.1667)"><tspan x="0"  y="4.55078">B</tspan></text>
+  <text id="shape36" fill="#231f20" font-family="Calibri" font-size="3.48359990120pt" x="0.00000000000pt" y="2.23437500000pt" transform="translate(73.8321, 50.8605)"><tspan x="0"  y="2.79297">22</tspan></text>
+  <path id="shape37" transform="matrix(0.908421 0 0 -1 79.9529 60.375)" fill="#ecf1fa" d="M0 19.266L13.403 19.266L13.403 0L0 0Z"/>
+  <path id="shape38" transform="matrix(0.908421 0 0 -1 79.9529 60.375)" fill="none" stroke="#231f20" stroke-width="0.13429700000" stroke-linecap="round" stroke-linejoin="round" d="M0 19.266L13.403 19.266L13.403 0L0 0Z"/>
+  <text id="shape39" fill="#231f20" font-family="Calibri" font-size="5.36072015762pt" x="0.00000000000pt" y="0.62500000000pt" transform="translate(82.5161, 51.9362)"><tspan x="0"  y="0.78125">…..</tspan></text>
+  <path id="shape40" transform="matrix(0.908421 0 0 -1 91.3672 60.375)" fill="#ecf1fa" d="M0 19.266L13.403 19.266L13.403 0L0 0Z"/>
+  <path id="shape41" transform="matrix(0.908421 0 0 -1 91.3672 60.375)" fill="none" stroke="#231f20" stroke-width="0.13429700000" stroke-linecap="round" stroke-linejoin="round" d="M0 19.266L13.403 19.266L13.403 0L0 0Z"/>
+  <text id="shape42" fill="#231f20" font-family="Calibri" font-size="5.36072015762pt" x="0.00000000000pt" y="3.64062500000pt" transform="translate(94.0151, 48.1667)"><tspan x="0"  y="4.55078">B</tspan></text>
+  <text id="shape43" fill="#231f20" font-family="Calibri" font-size="3.48359990120pt" x="0.00000000000pt" y="2.23437500000pt" transform="translate(97.3231, 50.8605)"><tspan x="0"  y="2.79297">2y</tspan></text>
+  <text id="shape44" fill="#231f20" font-family="Arial" font-size="4.46719980240pt" x="0.00000000000pt" y="2.92187500000pt" transform="translate(2.81727, 63.4364)"><tspan x="0"  y="3.65234">Extent</tspan></text>
+  <text id="shape45" fill="#231f20" font-family="Arial" font-size="4.46719980240pt" x="0.00000000000pt" y="2.92187500000pt" transform="translate(18.5981, 63.5536)"><tspan x="0"  y="3.65234">E1</tspan></text>
+  <text id="shape46" fill="#231f20" font-family="Arial" font-size="4.46719980240pt" x="0.00000000000pt" y="1.25000000000pt" transform="matrix(1.11806 0 0 -1.31284 26.1484 65.5995)"><tspan x="0"  y="1.5625">-</tspan></text>
+  <text id="shape47" fill="#231f20" font-family="Arial" font-size="4.46719980240pt" x="0.00000000000pt" y="2.96875000000pt" transform="translate(29.1892, 63.3778)"><tspan x="0"  y="3.71094">Sealed</tspan></text>
+  <text id="shape48" fill="#231f20" font-family="Arial" font-size="4.46719980240pt" x="0.00000000000pt" y="2.92187500000pt" transform="translate(57.6013, 63.3468)"><tspan x="0"  y="3.65234">Extent</tspan></text>
+  <text id="shape49" fill="#231f20" font-family="Arial" font-size="4.46719980240pt" x="0.00000000000pt" y="2.92187500000pt" transform="translate(73.3822, 63.3468)"><tspan x="0"  y="3.65234">E2</tspan></text>
+  <text id="shape50" fill="#231f20" font-family="Arial" font-size="4.46719980240pt" x="0.00000000000pt" y="1.25000000000pt" transform="translate(80.9911, 65.4366)"><tspan x="0"  y="1.5625">-</tspan></text>
+  <text id="shape51" fill="#231f20" font-family="Arial" font-size="4.46719980240pt" x="0.00000000000pt" y="2.96875000000pt" transform="translate(84.0905, 63.2882)"><tspan x="0"  y="3.71094">Sealed</tspan></text>
+  <path id="shape52" transform="matrix(0.908421 0 0 -1 117.238 36.082)" fill="none" stroke="#231f20" stroke-width="0.40184100000" stroke-linecap="round" stroke-linejoin="round" d="M0.417 0L0 5.863"/>
+  <path id="shape53" transform="matrix(1 0 0 -1 115.715 41.1096)" fill="#231f20" fill-rule="evenodd" d="M3.426 5.446L1.902 0L0 5.446L3.426 5.446"/>
+  <path id="shape54" transform="matrix(1 0 0 -1 112.672 30.2186)" fill="#ffffff" d="M0 15.074L54.785 15.074L54.785 0L0 0Z"/>
+  <path id="shape55" transform="matrix(0.908421 0 0 -1 112.672 30.223)" fill="none" stroke="#231f20" stroke-width="0.13429700000" stroke-linecap="round" stroke-linejoin="round" d="M0 15.078L60.308 15.078L60.308 0L0 0Z"/>
+  <text id="shape56" fill="#231f20" font-family="Calibri" font-size="4.46719980240pt" x="0.00000000000pt" y="3.04687500000pt" transform="translate(115.694, 20.1793)"><tspan x="0"  y="3.80859">Pointer to Extent E3</tspan></text>
+  <path id="shape57" transform="matrix(0.908421 0 0 -1 111.531 60.375)" fill="#ecf1fa" d="M0 19.266L13.399 19.266L13.399 0L0 0Z"/>
+  <path id="shape58" transform="matrix(0.908421 0 0 -1 111.531 60.375)" fill="none" stroke="#231f20" stroke-width="0.13429700000" stroke-linecap="round" stroke-linejoin="round" d="M0 19.266L13.399 19.266L13.399 0L0 0Z"/>
+  <text id="shape59" fill="#231f20" font-family="Calibri" font-size="5.36072015762pt" x="0.00000000000pt" y="3.64062500000pt" transform="translate(113.89, 48.1667)"><tspan x="0"  y="4.55078">B</tspan></text>
+  <text id="shape60" fill="#231f20" font-family="Calibri" font-size="3.48359990120pt" x="0.00000000000pt" y="2.23437500000pt" transform="translate(117.202, 50.8605)"><tspan x="0"  y="2.79297">31</tspan></text>
+  <path id="shape61" transform="matrix(0.908421 0 0 -1 122.946 60.375)" fill="#ecf1fa" d="M0 19.266L13.399 19.266L13.399 0L0 0Z"/>
+  <path id="shape62" transform="matrix(0.908421 0 0 -1 122.946 60.375)" fill="none" stroke="#231f20" stroke-width="0.13429700000" stroke-linecap="round" stroke-linejoin="round" d="M0 19.266L13.399 19.266L13.399 0L0 0Z"/>
+  <text id="shape63" fill="#231f20" font-family="Calibri" font-size="5.36072015762pt" x="0.00000000000pt" y="3.64062500000pt" transform="translate(125.303, 48.1667)"><tspan x="0"  y="4.55078">B</tspan></text>
+  <text id="shape64" fill="#231f20" font-family="Calibri" font-size="3.48359990120pt" x="0.00000000000pt" y="2.23437500000pt" transform="translate(128.615, 50.8605)"><tspan x="0"  y="2.79297">32</tspan></text>
+  <path id="shape65" transform="matrix(1 0 0 -1 134.738 60.3756)" fill="#ecf1fa" d="M0 19.266L12.172 19.266L12.172 0L0 0Z"/>
+  <path id="shape66" transform="matrix(0.908421 0 0 -1 134.738 60.375)" fill="none" stroke="#231f20" stroke-width="0.13429700000" stroke-linecap="round" stroke-linejoin="round" d="M0 19.266L13.403 19.266L13.403 0L0 0Z"/>
+  <text id="shape67" fill="#231f20" font-family="Calibri" font-size="5.36072015762pt" x="0.00000000000pt" y="0.62500000000pt" transform="translate(137.299, 51.9362)"><tspan x="0"  y="0.78125">…..</tspan></text>
+  <path id="shape68" transform="matrix(0.908421 0 0 -1 146.152 60.375)" fill="#ecf1fa" d="M0 19.266L13.399 19.266L13.399 0L0 0Z"/>
+  <path id="shape69" transform="matrix(0.908421 0 0 -1 146.152 60.375)" fill="none" stroke="#231f20" stroke-width="0.13429700000" stroke-linecap="round" stroke-linejoin="round" d="M0 19.266L13.399 19.266L13.399 0L0 0Z"/>
+  <text id="shape70" fill="#231f20" font-family="Calibri" font-size="5.36072015762pt" x="0.00000000000pt" y="3.64062500000pt" transform="translate(148.911, 48.1667)"><tspan x="0"  y="4.55078">B</tspan></text>
+  <text id="shape71" fill="#231f20" font-family="Calibri" font-size="3.48359990120pt" x="0.00000000000pt" y="2.23437500000pt" transform="translate(152.223, 50.8605)"><tspan x="0"  y="2.79297">3z</tspan></text>
+  <text id="shape72" fill="#231f20" font-family="Arial" font-size="4.46719980240pt" x="0.00000000000pt" y="2.92187500000pt" transform="translate(112.383, 63.3463)"><tspan x="0"  y="3.65234">Extent</tspan></text>
+  <text id="shape73" fill="#231f20" font-family="Arial" font-size="4.46719980240pt" x="0.00000000000pt" y="2.92187500000pt" transform="translate(128.164, 63.3463)"><tspan x="0"  y="3.65234">E3</tspan></text>
+  <text id="shape74" fill="#231f20" font-family="Arial" font-size="4.46719980240pt" x="0.00000000000pt" y="1.25000000000pt" transform="translate(135.773, 65.4361)"><tspan x="0"  y="1.5625">-</tspan></text>
+  <text id="shape75" fill="#231f20" font-family="Arial" font-size="4.46719980240pt" x="0.00000000000pt" y="2.96875000000pt" transform="translate(138.872, 63.2877)"><tspan x="0"  y="3.71094">Sealed</tspan></text>
+  <path id="shape76" transform="matrix(0.908421 0 0 -1 172.02 36.082)" fill="none" stroke="#231f20" stroke-width="0.40184100000" stroke-linecap="round" stroke-linejoin="round" d="M0.422 0L0 5.863"/>
+  <path id="shape77" transform="matrix(1 0 0 -1 170.5 41.1096)" fill="#231f20" fill-rule="evenodd" d="M3.422 5.446L1.902 0L0 5.446L3.422 5.446"/>
+  <path id="shape78" transform="matrix(1 0 0 -1 167.457 30.2186)" fill="#ffffff" d="M0 15.074L54.781 15.074L54.781 0L0 0Z"/>
+  <path id="shape79" transform="matrix(0.908421 0 0 -1 167.457 30.223)" fill="none" stroke="#231f20" stroke-width="0.13429700000" stroke-linecap="round" stroke-linejoin="round" d="M0 15.078L60.304 15.078L60.304 0L0 0Z"/>
+  <text id="shape80" fill="#231f20" font-family="Calibri" font-size="4.46719980240pt" x="0.00000000000pt" y="3.04687500000pt" transform="translate(171.065, 20.4728)"><tspan x="0"  y="3.80859">Pointer to Extent E4</tspan></text>
+  <path id="shape81" transform="matrix(0.908421 0 0 -1 166.313 60.375)" fill="#ecf1fa" d="M0 19.266L13.403 19.266L13.403 0L0 0Z"/>
+  <path id="shape82" transform="matrix(0.908421 0 0 -1 166.313 60.375)" fill="none" stroke="#231f20" stroke-width="0.13429700000" stroke-linecap="round" stroke-linejoin="round" d="M0 19.266L13.403 19.266L13.403 0L0 0Z"/>
+  <text id="shape83" fill="#231f20" font-family="Calibri" font-size="5.36072015762pt" x="0.00000000000pt" y="3.64062500000pt" transform="translate(168.673, 48.1667)"><tspan x="0"  y="4.55078">B</tspan></text>
+  <text id="shape84" fill="#231f20" font-family="Calibri" font-size="3.48359990120pt" x="0.00000000000pt" y="2.18750000000pt" transform="translate(171.986, 50.9191)"><tspan x="0"  y="2.73438">41</tspan></text>
+  <path id="shape85" transform="matrix(0.908421 0 0 -1 177.726 60.375)" fill="#ecf1fa" d="M0 19.266L13.403 19.266L13.403 0L0 0Z"/>
+  <path id="shape86" transform="matrix(0.908421 0 0 -1 177.726 60.375)" fill="none" stroke="#231f20" stroke-width="0.13429700000" stroke-linecap="round" stroke-linejoin="round" d="M0 19.266L13.403 19.266L13.403 0L0 0Z"/>
+  <text id="shape87" fill="#231f20" font-family="Calibri" font-size="5.36072015762pt" x="0.00000000000pt" y="3.64062500000pt" transform="translate(180.086, 48.1667)"><tspan x="0"  y="4.55078">B</tspan></text>
+  <text id="shape88" fill="#231f20" font-family="Calibri" font-size="3.48359990120pt" x="0.00000000000pt" y="2.23437500000pt" transform="translate(183.399, 50.8605)"><tspan x="0"  y="2.79297">42</tspan></text>
+  <path id="shape89" transform="matrix(0.908421 0 0 -1 189.519 60.375)" fill="#ecf1fa" d="M0 19.266L13.403 19.266L13.403 0L0 0Z"/>
+  <path id="shape90" transform="matrix(0.908421 0 0 -1 189.519 60.375)" fill="none" stroke="#231f20" stroke-width="0.13429700000" stroke-linecap="round" stroke-linejoin="round" d="M0 19.266L13.403 19.266L13.403 0L0 0Z"/>
+ </g>
+</svg>
